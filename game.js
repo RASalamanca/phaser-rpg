@@ -30,25 +30,25 @@ var BootScreen = new Phaser.Class({
      {
         this.anims.create({               // <--Walk Up
           key: 'walkUp',
-          frames: this.anims.generateFrameNumbers('player', {start: 10, end: 12}),
+          frames: this.anims.generateFrameNumbers('player', {start: 9, end: 11}),
           frameRate: 10,
           repeat: -1
         });
         this.anims.create({               // <--Walk Right
           key: 'walkRight',
-          frames: this.anims.generateFrameNumbers('player', {start: 22, end: 24}),
+          frames: this.anims.generateFrameNumbers('player', {start: 21, end: 23}),
           frameRate: 10,
           repeat: -1
         });
         this.anims.create({               // <--Walk Down
           key: 'walkDown',
-          frames: this.anims.generateFrameNumbers('player', {start: 34, end: 36}),
+          frames: this.anims.generateFrameNumbers('player', {start: 33, end: 35}),
           frameRate: 10,
           repeat: -1
         });
         this.anims.create({               // <--Walk Left
           key: 'walkLeft',
-          frames: this.anims.generateFrameNumbers('player', {start: 46, end: 48}),
+          frames: this.anims.generateFrameNumbers('player', {start: 45, end: 47}),
           frameRate: 10,
           repeat: -1
         });
@@ -58,22 +58,22 @@ var BootScreen = new Phaser.Class({
       {
         this.anims.create({               // <--Stand Up
           key: 'StandUp',
-          frames: [{key: 'player', frame: 11}],
+          frames: [{key: 'player', frame: 10}],
           frameRate: 20,
         });
         this.anims.create({               // <--Stand Right
           key: 'StandRight',
-          frames: [{key: 'player', frame: 23}],
+          frames: [{key: 'player', frame: 22}],
           frameRate: 20,
         });
         this.anims.create({               // <--Stand Down
           key: 'StandDown',
-          frames: [{key: 'player', frame: 35}],
+          frames: [{key: 'player', frame: 34}],
           frameRate: 20,
         });
         this.anims.create({               // <--Stand Left
           key: 'StandLeft',
-          frames: [{key: 'player', frame: 47}],
+          frames: [{key: 'player', frame: 46}],
           frameRate: 20,
         });
       }
@@ -103,16 +103,7 @@ var FloatingIsland = new Phaser.Class({
   init: function () {},
 
   preload: function () {
-    //loads up spritesheets
-    this.load.spritesheet('player', 
-    'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/sprites/Zack.png',
-    { frameWidth: 24, frameHeight: 32});
-
-    this.load.spritesheet('bandit', 
-    'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/sprites/Bandido.png',
-    { frameWidth: 24, frameHeight: 32});
-
-
+        
   	//loads floating island tileset & Tilemap
   	this.load.image('Island', 'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/tilesets/floatingIslands.png');
   
@@ -132,7 +123,7 @@ var FloatingIsland = new Phaser.Class({
 
     //creates Player
     const spawnPoint = map.findObject('Objects', obj => obj.name === 'SpawnPoint');
-    var player = this.physics.add.sprite( spawnPoint.x, spawnPoint.y, 'player', 35);
+    var player = this.physics.add.sprite( spawnPoint.x, spawnPoint.y, 'player', 34);
 
     //map colliders
     this.baseLayer.setCollisionByProperty({ Collides: true });
