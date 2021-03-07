@@ -22,8 +22,9 @@ var game = new Phaser.Game(config);
 function preload () {
 
 	//loads floating island tileset
-	this.load.image('Island', '/assets/tilesets/floatingIslands.png');
-	this.load.tilemapTiledJSON('map', '/assets/maps/Area2.json');
+	this.load.image('Island', 'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/tilesets/floatingIslands.png');
+  
+	this.load.tilemapTiledJSON('map', 'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/maps/Area2.json');
 }
 
 function create () {
