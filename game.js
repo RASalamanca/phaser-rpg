@@ -5,7 +5,7 @@ var BootScreen = new Phaser.Class({
   Extends: Phaser.Scene,
 
   initialize: function BootScreen(){
-    Phaser.Scene.call(this, {key: 'bootScreen'});
+    Phaser.Scene.call(this, {key: 'BootScreen'});
   },
 
   init: function () {},
@@ -78,6 +78,15 @@ var BootScreen = new Phaser.Class({
         });
       }
     }
+
+    //Switch to Game
+    this.time.addEvent({
+      delay: 10,
+      loop: false,
+      callback: () => {
+        this.scene.start('FloatingIsland');
+      }
+    });
   },
 
   update: function () {},
@@ -88,7 +97,7 @@ var FloatingIsland = new Phaser.Class({
   Extends: Phaser.Scene,
 
   initialize: function FloatingIsland(){
-    Phaser.Scene.call(this, {key: 'floatingIsland'});
+    Phaser.Scene.call(this, {key: 'FloatingIsland'});
   },
 
   init: function () {},
@@ -153,7 +162,7 @@ var config = {
     default: "arcade",
     gravity: { y: 0}
   },
-  scene: [FloatingIsland]
+  scene: [BootScreen, FloatingIsland]
 };
 
 //creates the game and injects the canvas element
