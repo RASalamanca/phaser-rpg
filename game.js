@@ -6,6 +6,10 @@ var config = {
 	parent: 'game-container',
 	pixelArt: true,
 	zoom: 2,
+  physics: {
+    default: "arcade",
+    gravity: { y: 0}
+  }
 	scene: {
 		preload: preload,
 		create: create,
@@ -13,7 +17,7 @@ var config = {
 	}
 };
 
-//Game Globals
+//Scene Globals
 var controls;
 
 //creates the game and injects the canvas element
@@ -21,10 +25,19 @@ var game = new Phaser.Game(config);
 
 function preload () {
 
-	//loads floating island tileset
+	//loads floating island tileset & Tilemap
 	this.load.image('Island', 'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/tilesets/floatingIslands.png');
   
 	this.load.tilemapTiledJSON('map', 'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/maps/Area2.json');
+
+  //loads up spritesheets
+  this.load.spritesheet('player', 
+  'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/sprites/Zack.png',
+  { frameWidth: 24, frameHeight: 32});
+
+  this.load.spritesheet('bandit', 
+  'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/sprites/Bandido.png',
+  { frameWidth: 24, frameHeight: 32});
 }
 
 function create () {
@@ -36,6 +49,12 @@ function create () {
 	this.clifLayer = map.createLayer("Cliffs", tileset, 0, 0);
 	this.baseLayer = map.createLayer("Base", tileset, 0, 0);
 	this.detailLayer = map.createLayer("Details", tileset, 0, 0);
+
+  //map colliders
+  this.baseLayer.setCollisionByProperty({ Collides: true });
+  this.detailLayer.setCollisionByProperty({ Collides: true });
+    
+});
 
 	//Creates Camera and camera controls
 	const camera = this.cameras.main;
