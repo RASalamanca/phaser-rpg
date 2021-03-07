@@ -103,6 +103,15 @@ var FloatingIsland = new Phaser.Class({
   init: function () {},
 
   preload: function () {
+    //loads up spritesheets
+    this.load.spritesheet('player', 
+    'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/sprites/Zack.png',
+    { frameWidth: 24, frameHeight: 32});
+
+    this.load.spritesheet('bandit', 
+    'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/sprites/Bandido.png',
+    { frameWidth: 24, frameHeight: 32});
+
 
   	//loads floating island tileset & Tilemap
   	this.load.image('Island', 'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/tilesets/floatingIslands.png');
@@ -111,7 +120,7 @@ var FloatingIsland = new Phaser.Class({
   },
 
   create: function () {
-
+    
   	//renders level map
   	const map = this.make.tilemap({ key: "map" });
   	const tileset = map.addTilesetImage("Island", "Island");
@@ -120,6 +129,10 @@ var FloatingIsland = new Phaser.Class({
 	  this.clifLayer = map.createLayer("Cliffs", tileset, 0, 0);
 	  this.baseLayer = map.createLayer("Base", tileset, 0, 0);
 	  this.detailLayer = map.createLayer("Details", tileset, 0, 0);
+
+    //creates Player
+    const spawnPoint = map.findObject('Objects', obj => obj.name === 'SpawnPoint');
+    var player = this.physics.add.sprite( spawnPoint.x, spawnPoint.y, 'player', 35);
 
     //map colliders
     this.baseLayer.setCollisionByProperty({ Collides: true });
