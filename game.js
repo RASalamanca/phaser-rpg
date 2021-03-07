@@ -9,8 +9,8 @@ var config = {
   physics: {
     default: "arcade",
     gravity: { y: 0}
-  }
-	scene: {
+  },
+  scene: {
 		preload: preload,
 		create: create,
 		update: update
@@ -53,9 +53,7 @@ function create () {
   //map colliders
   this.baseLayer.setCollisionByProperty({ Collides: true });
   this.detailLayer.setCollisionByProperty({ Collides: true });
-    
-});
-
+   
 	//Creates Camera and camera controls
 	const camera = this.cameras.main;
 		
