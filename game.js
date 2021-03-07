@@ -95,10 +95,14 @@ var BootScreen = new Phaser.Class({
 //Main Scene
 var FloatingIsland = new Phaser.Class({
   Extends: Phaser.Scene,
-
+  
   initialize: function FloatingIsland(){
     Phaser.Scene.call(this, {key: 'FloatingIsland'});
   },
+
+  //Scene Globals
+  player: undefined,
+  cursors: undefined,
 
   init: function () {},
 
@@ -124,18 +128,18 @@ var FloatingIsland = new Phaser.Class({
 
     //creates Player
     const spawnPoint = map.findObject('Objects', obj => obj.name === 'SpawnPoint');
-    var player = this.physics.add.sprite( spawnPoint.x, spawnPoint.y, 'player', 34);
+    player = this.physics.add.sprite( spawnPoint.x, spawnPoint.y, 'player', 34);
 
     //map colliders
     this.baseLayer.setCollisionByProperty({ Collides: true });
     this.detailLayer.setCollisionByProperty({ Collides: true });
-    this.physics.add.collider( player, baseLayer);
-    this.physics.add.collider( player, detailLayer);
+    this.physics.add.collider( player, this.baseLayer);
+    this.physics.add.collider( player, this.detailLayer);
    
   	//Creates Camera and camera controls
   	const camera = this.cameras.main;
 		
-	  const cursors = this.input.keyboard.createCursorKeys();
+	  cursors = this.input.keyboard.createCursorKeys();
 	  controls = new Phaser.Cameras.Controls.FixedKeyControl({
   		camera: camera,
 	    left: cursors.left,
@@ -145,7 +149,8 @@ var FloatingIsland = new Phaser.Class({
 		  speed: 0.5
 		});
 
-	  //costrains camera to the inside of tilemap
+	  //makes camera follow player and costrains it to the inside of tilemap
+    camera.startFollow(player);
 	  camera.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
   }, 
 
