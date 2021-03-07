@@ -120,6 +120,7 @@ var FloatingIsland = new Phaser.Class({
 	  this.clifLayer = map.createLayer("Cliffs", tileset, 0, 0);
 	  this.baseLayer = map.createLayer("Base", tileset, 0, 0);
 	  this.detailLayer = map.createLayer("Details", tileset, 0, 0);
+    this.detailLayer.setDepth(10);
 
     //creates Player
     const spawnPoint = map.findObject('Objects', obj => obj.name === 'SpawnPoint');
@@ -128,6 +129,8 @@ var FloatingIsland = new Phaser.Class({
     //map colliders
     this.baseLayer.setCollisionByProperty({ Collides: true });
     this.detailLayer.setCollisionByProperty({ Collides: true });
+    this.physics.add.collider( player, baseLayer);
+    this.physics.add.collider( player, detailLayer);
    
   	//Creates Camera and camera controls
   	const camera = this.cameras.main;
