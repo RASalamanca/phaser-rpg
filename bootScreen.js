@@ -79,14 +79,18 @@ var BootScreen = new Phaser.Class({
       }
     }
 
+    //Tittle Screen Text
+    const titleText = this.add.text(55, 100, "PHASER RPG", {fill: '#ffffff', fontSize: 48} );
+    const startButton = this.add.text(175, 200, "Start", {fill: '#ff0000'} );
+
     //Switch to Game
-    this.time.addEvent({
-      delay: 10,
-      loop: false,
-      callback: () => {
-        this.scene.start('FloatingIsland');
-      }
-    });
+//    this.time.addEvent({
+//      delay: 100,
+//      loop: false,
+//      callback: () => {
+//        this.scene.start('FloatingIsland');
+//      }
+//    });
   },
 
   update: function () {},
