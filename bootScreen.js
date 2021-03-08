@@ -81,7 +81,13 @@ var BootScreen = new Phaser.Class({
 
     //Tittle Screen Text
     const titleText = this.add.text(55, 100, "PHASER RPG", {fill: '#ffffff', fontSize: 48} );
+
+    //Start Button
     const startButton = this.add.text(175, 200, "Start", {fill: '#ff0000'} );
+    startButton.setInteractive( { useHandCursor: true });    
+    startButton.on('pointerover', () => { startButton.setBackgroundColor("#ffffff") });
+    startButton.on('pointerout', () => { startButton.setBackgroundColor("#000000") });
+    startButton.on('pointerdown', () => { this.scene.start('FloatingIsland'); });
 
     //Switch to Game
 //    this.time.addEvent({
@@ -93,5 +99,6 @@ var BootScreen = new Phaser.Class({
 //    });
   },
 
-  update: function () {},
+  update: function () {  
+  },
 });
