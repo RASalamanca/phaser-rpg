@@ -147,7 +147,7 @@ var FloatingIsland = new Phaser.Class({
   }, 
 
   update: function (time, delta) {
-    const speed = 175;
+    const speed = 112;
     const prevVelocity = player.body.velocity.clone();
 
     // Stop any previous movement from the last frame
