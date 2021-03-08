@@ -1,5 +1,5 @@
 //Boot Scene
-//This is the scene we use to delcare global information that we reuse trought the Game
+//This is the scene we use to declare global information that we reuse trought the Game
 //Mostly animation data
 var BootScreen = new Phaser.Class({
   Extends: Phaser.Scene,
@@ -57,22 +57,22 @@ var BootScreen = new Phaser.Class({
       //Standing animations
       {
         this.anims.create({               // <--Stand Up
-          key: 'StandUp',
+          key: 'standUp',
           frames: [{key: 'player', frame: 10}],
           frameRate: 20,
         });
         this.anims.create({               // <--Stand Right
-          key: 'StandRight',
+          key: 'standRight',
           frames: [{key: 'player', frame: 22}],
           frameRate: 20,
         });
         this.anims.create({               // <--Stand Down
-          key: 'StandDown',
+          key: 'standDown',
           frames: [{key: 'player', frame: 34}],
           frameRate: 20,
         });
         this.anims.create({               // <--Stand Left
-          key: 'StandLeft',
+          key: 'standLeft',
           frames: [{key: 'player', frame: 46}],
           frameRate: 20,
         });
@@ -135,30 +135,65 @@ var FloatingIsland = new Phaser.Class({
     this.detailLayer.setCollisionByProperty({ Collides: true });
     this.physics.add.collider( player, this.baseLayer);
     this.physics.add.collider( player, this.detailLayer);
-   
-  	//Creates Camera and camera controls
-  	const camera = this.cameras.main;
-		
+   		
 	  cursors = this.input.keyboard.createCursorKeys();
-	  controls = new Phaser.Cameras.Controls.FixedKeyControl({
-  		camera: camera,
-	    left: cursors.left,
-		  right: cursors.right,
-		  up: cursors.up,
-		  down: cursors.down,
-		  speed: 0.5
-		});
+//	  controls = new Phaser.Cameras.Controls.FixedKeyControl({
+//  		camera: camera,
+//	    left: cursors.left,
+//		  right: cursors.right,
+//		  up: cursors.up,
+//		  down: cursors.down,
+//		  speed: 0.5
+//		});
 
-	  //makes camera follow player and costrains it to the inside of tilemap
+    //Creates Camera, asigns it follow player and costrains it to the inside of tilemap
+  	const camera = this.cameras.main;
     camera.startFollow(player);
 	  camera.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
   }, 
 
   update: function (time, delta) {
 
-	  //apply the controls to the camera each tick of the game
-	  controls.update(delta);
-	
+  const speed = 175;
+  const prevVelocity = player.body.velocity.clone();
+
+  // Stop any previous movement from the last frame
+  player.body.setVelocity(0);
+
+  // Horizontal movement
+  if (cursors.left.isDown) {
+    player.body.setVelocityX(-speed);
+  } else if (cursors.right.isDown) {
+    player.body.setVelocityX(speed);
+  }
+
+  // Vertical movement
+  if (cursors.up.isDown) {
+    player.body.setVelocityY(-speed);
+  } else if (cursors.down.isDown) {
+    player.body.setVelocityY(speed);
+  }
+
+  // Normalize and scale the velocity so that player can't move faster along a diagonal
+  player.body.velocity.normalize().scale(speed);
+
+  // Update the animation last and give left/right animations precedence over up/down animations
+  if (cursors.left.isDown) {
+    player.anims.play("walkLeft", true);
+  } else if (cursors.right.isDown) {
+    player.anims.play("walkRight", true);
+  } else if (cursors.up.isDown) {
+    player.anims.play("walkDown", true);
+  } else if (cursors.down.isDown) {
+    player.anims.play("walkUp", true);
+  } else {
+    player.anims.stop();
+
+    // If we were moving, pick and idle frame to use
+    if (prevVelocity.x < 0) player.anims.play("standLeft");
+    else if (prevVelocity.x > 0) player.anims.play("standRight");
+    else if (prevVelocity.y < 0) player.anims.play("standDown");
+    else if (prevVelocity.y > 0) player.anims.play("standUp");	
   }
 });
 
