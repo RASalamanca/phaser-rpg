@@ -8,6 +8,7 @@ var FloatingIsland = new Phaser.Class({
 
   //Scene Globals
   player: undefined,
+  playerHead: undefined,
   cursors: undefined,
 
   init: function () {},
@@ -27,8 +28,10 @@ var FloatingIsland = new Phaser.Class({
   	const tileset = map.addTilesetImage("Island", "Island");
 	
 	  //draws map layers
-	  this.clifLayer = map.createLayer("Cliffs", tileset, 0, 0);
+	  this.cliffUnderLayer = map.createLayer("CliffsUnder", tileset, 0, 0);
+    this.cliffBelowLayer = map.createLayer("CliffsBelow", tileset, 0, 0);
 	  this.baseLayer = map.createLayer("Base", tileset, 0, 0);
+    this.baseUpperLayer = map.createLayer("BaseUpper", tileset, 0, 0);
 	  this.detailLayer = map.createLayer("Details", tileset, 0, 0);
     this.detailLayer.setDepth(10);
 
@@ -36,13 +39,19 @@ var FloatingIsland = new Phaser.Class({
     const spawnPoint = map.findObject('Objects', obj => obj.name === 'SpawnPoint');
     player = this.physics.add.sprite( spawnPoint.x, spawnPoint.y, 'player', 34);
     player.setBodySize(8, 8, true);
-    player.setOffset(8, 22);
+    player.setOffset(0, 22);
+    playerHead = this.physics.add.image();
+    playerHead.setBodySize(8)
 
     //map colliders
     this.baseLayer.setCollisionByProperty({ Collides: true });
+    this.baseUpperLayer.setCollisionByProperty({ Collides: true });
     this.detailLayer.setCollisionByProperty({ Collides: true });
     this.physics.add.collider( player, this.baseLayer);
+    this.physics.add.collider( player, this.baseUpperLayer);
     this.physics.add.collider( player, this.detailLayer);
+    //this.physics.add.overlap( player, baseUpperLayer);
+    //this.physics.add.overlap( player, detailLayer);
    		
 	  cursors = this.input.keyboard.createCursorKeys();
 
