@@ -129,6 +129,8 @@ var FloatingIsland = new Phaser.Class({
     //creates Player
     const spawnPoint = map.findObject('Objects', obj => obj.name === 'SpawnPoint');
     player = this.physics.add.sprite( spawnPoint.x, spawnPoint.y, 'player', 34);
+    player.setBodySize(8, 8, true);
+    player.setOffset(8, 22);
 
     //map colliders
     this.baseLayer.setCollisionByProperty({ Collides: true });
@@ -174,9 +176,9 @@ var FloatingIsland = new Phaser.Class({
     } else if (cursors.right.isDown) {
       player.anims.play("walkRight", true);
     } else if (cursors.up.isDown) {
-      player.anims.play("walkDown", true);
-    } else if (cursors.down.isDown) {
       player.anims.play("walkUp", true);
+    } else if (cursors.down.isDown) {
+      player.anims.play("walkDown", true);
     } else {
       player.anims.stop();
 
@@ -186,9 +188,9 @@ var FloatingIsland = new Phaser.Class({
       }else if (prevVelocity.x > 0){
         player.anims.play("standRight");
       }else if (prevVelocity.y < 0){
-        player.anims.play("standDown");
+        player.anims.play("standUp");
       }else if (prevVelocity.y > 0){
-        player.anims.play("standUp");	
+        player.anims.play("standDown");	
       }
     }
   }   
