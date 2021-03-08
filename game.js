@@ -137,14 +137,6 @@ var FloatingIsland = new Phaser.Class({
     this.physics.add.collider( player, this.detailLayer);
    		
 	  cursors = this.input.keyboard.createCursorKeys();
-//	  controls = new Phaser.Cameras.Controls.FixedKeyControl({
-//  		camera: camera,
-//	    left: cursors.left,
-//		  right: cursors.right,
-//		  up: cursors.up,
-//		  down: cursors.down,
-//		  speed: 0.5
-//		});
 
     //Creates Camera, asigns it follow player and costrains it to the inside of tilemap
   	const camera = this.cameras.main;
@@ -153,48 +145,53 @@ var FloatingIsland = new Phaser.Class({
   }, 
 
   update: function (time, delta) {
+    const speed = 175;
+    const prevVelocity = player.body.velocity.clone();
 
-  const speed = 175;
-  const prevVelocity = player.body.velocity.clone();
+    // Stop any previous movement from the last frame
+    player.body.setVelocity(0);
 
-  // Stop any previous movement from the last frame
-  player.body.setVelocity(0);
+    // Horizontal movement
+    if (cursors.left.isDown) {
+      player.body.setVelocityX(-speed);
+    } else if (cursors.right.isDown) {
+      player.body.setVelocityX(speed);
+    }
 
-  // Horizontal movement
-  if (cursors.left.isDown) {
-    player.body.setVelocityX(-speed);
-  } else if (cursors.right.isDown) {
-    player.body.setVelocityX(speed);
-  }
+    // Vertical movement
+    if (cursors.up.isDown) {
+      player.body.setVelocityY(-speed);
+    } else if (cursors.down.isDown) {
+      player.body.setVelocityY(speed);
+    }
 
-  // Vertical movement
-  if (cursors.up.isDown) {
-    player.body.setVelocityY(-speed);
-  } else if (cursors.down.isDown) {
-    player.body.setVelocityY(speed);
-  }
+    // Normalize and scale the velocity so that player can't move faster along a diagonal
+    player.body.velocity.normalize().scale(speed);
 
-  // Normalize and scale the velocity so that player can't move faster along a diagonal
-  player.body.velocity.normalize().scale(speed);
+    // Update the animation last and give left/right animations precedence over up/down animations
+    if (cursors.left.isDown) {
+      player.anims.play("walkLeft", true);
+    } else if (cursors.right.isDown) {
+      player.anims.play("walkRight", true);
+    } else if (cursors.up.isDown) {
+      player.anims.play("walkDown", true);
+    } else if (cursors.down.isDown) {
+      player.anims.play("walkUp", true);
+    } else {
+      player.anims.stop();
 
-  // Update the animation last and give left/right animations precedence over up/down animations
-  if (cursors.left.isDown) {
-    player.anims.play("walkLeft", true);
-  } else if (cursors.right.isDown) {
-    player.anims.play("walkRight", true);
-  } else if (cursors.up.isDown) {
-    player.anims.play("walkDown", true);
-  } else if (cursors.down.isDown) {
-    player.anims.play("walkUp", true);
-  } else {
-    player.anims.stop();
-
-    // If we were moving, pick and idle frame to use
-    if (prevVelocity.x < 0) player.anims.play("standLeft");
-    else if (prevVelocity.x > 0) player.anims.play("standRight");
-    else if (prevVelocity.y < 0) player.anims.play("standDown");
-    else if (prevVelocity.y > 0) player.anims.play("standUp");	
-  }
+      // If we were moving, pick and idle frame to use
+      if (prevVelocity.x < 0){ 
+        player.anims.play("standLeft");
+      }else if (prevVelocity.x > 0){
+        player.anims.play("standRight");
+      }else if (prevVelocity.y < 0){
+        player.anims.play("standDown");
+      }else if (prevVelocity.y > 0){
+        player.anims.play("standUp");	
+      }
+    }
+  }   
 });
 
 //Game config objet
