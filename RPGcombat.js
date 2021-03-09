@@ -95,6 +95,29 @@ function Combatant(name, level, armor, weapon, skills){
   this.physicalMult = 1;
 
   //Methods
+  this.equipArmor = function(item){
+    if( this.level >= item.level){
+      this.weapon = item;
+      this.minDamage = weapon.minDamage;
+       this.maxDamage = weapon.maxDamage; 
+    } else {
+      console.log('too weak...');
+    }
+  };
+
+  this.equipWeapon = funtion(item){
+    if( this.level >= item.level){
+      this.armor = item;
+      this.maxDefence = armor.defence;
+      this.defence = armor.defence;
+      this.maxHealth = armor.healthPoints;
+      this.health = armor.healthPoints;
+      this.thoughness = armor.thoughness;
+    } else {
+      console.log('too weak...');
+    }
+  };
+
   this.checkSkill = function(skill){     //Checks if a skill can be used.
     return this.energy >= skill.cost;
   };
