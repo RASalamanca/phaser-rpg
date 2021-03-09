@@ -57,11 +57,11 @@ function Skill(name, cost, elements, affinities){
     var totalDamage = 0
 
     if( assignedDamage > 0){
-      totalDamage += this.fire * assignedDamage;
-      totalDamage += this.ice * assignedDamage;
-      totalDamage += this.lightning * assignedDamage;
-      totalDamage += this.chaos * assignedDamage;
-      totalDamage += this.physical * assignedDamage;
+      totalDamage += target.fireMult * this.fire * assignedDamage;
+      totalDamage += target.iceMult * this.ice * assignedDamage;
+      totalDamage += target.lightningMult * this.lightning * assignedDamage;
+      totalDamage += target.chaosMult * this.chaos * assignedDamage;
+      totalDamage += target.physicalMult * this.physical * assignedDamage;
       target.health -= totalDamage;
       target.defence = 0;
     } else {
