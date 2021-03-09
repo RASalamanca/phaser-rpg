@@ -96,7 +96,7 @@ function Combatant(name, level, armor, weapon, skills){
 
   //Methods
   this.equipArmor = function(item){
-    if( this.level >= item.level){
+    if( this.level >= item.level ){
       this.weapon = item;
       this.minDamage = weapon.minDamage;
        this.maxDamage = weapon.maxDamage; 
@@ -105,8 +105,8 @@ function Combatant(name, level, armor, weapon, skills){
     }
   };
 
-  this.equipWeapon = funtion(item){
-    if( this.level >= item.level){
+  this.equipWeapon = function(item){
+    if( this.level >= item.level ){
       this.armor = item;
       this.maxDefence = armor.defence;
       this.defence = armor.defence;
