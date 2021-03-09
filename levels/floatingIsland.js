@@ -32,7 +32,7 @@ var FloatingIsland = new Phaser.Class({
 	  //draws map layers
 	  this.cliffUnderLayer = map.createLayer("CliffsUnder", tileset, 0, 0);
     this.cliffBelowLayer = map.createLayer("CliffsBelow", tileset, 0, 0);
-    fogLayer = this.add.tileSprite(300, 360, 840, 720, 'fog');
+    fogLayer = this.add.tileSprite(300, 400, 840, 820, 'fog');
     fogLayer.setAlpha(0.34, 0.24, 0.41, 0.31);
     //fogLayer.setAlpha(0.34, 0.34, 0.34, 0.34);
     fogLayer.setScrollFactor(0, 1);
