@@ -42,14 +42,10 @@ var FloatingIsland = new Phaser.Class({
     this.detailLayer.setDepth(20);
 
     //Creates Player
-    //The drawing order should depend on the Y cordinate, but that is to complicated.
-    //Instead, we make an extra hitbox called Playerhead to check where does the terrain overlap with the 
-    //player sprite, and adjust the draw order accordingly. 
     const spawnPoint = map.findObject('Objects', obj => obj.name === 'SpawnPoint');
     player = this.physics.add.sprite( spawnPoint.x, spawnPoint.y, 'player', 34);
     player.setBodySize(8, 8, true);
     player.setOffset(8, 24);
-
 
     //map colliders
     this.cliffBelowLayer.setCollisionByProperty({ Collides: true });
