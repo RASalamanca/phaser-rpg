@@ -43,11 +43,11 @@ function Skill(name, cost, elements, affinities){
     user.energy -= this.cost;
 
     //elemental multiplier gains and losses from using the skill
-    user.fireMult += this.cost * ( this.fireAff - this.fire);
-    user.iceMult += this.cost * ( this.iceAff - this.ice);
-    user.lightningMult += this.cost * ( this.lightningAff - this.lightning);
-    user.chaosMult += this.cost * ( this.chaosAff - this.chaos);
-    user.physicalMult += this.cost * ( this.physicalAff - this.physical);
+    user.fireMult += 0.25 * this.cost * ( this.fireAff - this.fire);
+    user.iceMult += 0.25 * this.cost * ( this.iceAff - this.ice);
+    user.lightningMult += 0.25 * this.cost * ( this.lightningAff - this.lightning);
+    user.chaosMult += 0.25 * this.cost * ( this.chaosAff - this.chaos);
+    user.physicalMult += 0.25 * this.cost * ( this.physicalAff - this.physical);
 
     //Damage calculations
     var damageRange = ( ser.maxDamade - user.minDamage ) + 1;   //Math.random always returns a number less than 1
