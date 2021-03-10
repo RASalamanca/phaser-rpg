@@ -3307,22 +3307,22 @@
   </tile>
   <tile id="660">
    <properties>
-    <property name="Collides" type="bool" value="false"/>
+    <property name="Collides" type="bool" value="true"/>
    </properties>
   </tile>
   <tile id="661">
    <properties>
-    <property name="Collides" type="bool" value="false"/>
+    <property name="Collides" type="bool" value="true"/>
    </properties>
   </tile>
   <tile id="662">
    <properties>
-    <property name="Collides" type="bool" value="false"/>
+    <property name="Collides" type="bool" value="true"/>
    </properties>
   </tile>
   <tile id="663">
    <properties>
-    <property name="Collides" type="bool" value="false"/>
+    <property name="Collides" type="bool" value="true"/>
    </properties>
   </tile>
   <tile id="664">
@@ -3342,12 +3342,12 @@
   </tile>
   <tile id="667">
    <properties>
-    <property name="Collides" type="bool" value="false"/>
+    <property name="Collides" type="bool" value="true"/>
    </properties>
   </tile>
   <tile id="668">
    <properties>
-    <property name="Collides" type="bool" value="false"/>
+    <property name="Collides" type="bool" value="true"/>
    </properties>
   </tile>
   <tile id="669">
