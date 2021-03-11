@@ -1,0 +1,4802 @@
+{
+  "0": {
+    "Name": "Dragon Bump A",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "1": {
+    "Name": "Dragon Bump B",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "2": {
+    "Name": "Dragon Bump C",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "3": {
+    "Name": "Dragon Bump D",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "4": {
+    "Name": "Nykur Bump A",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "5": {
+    "Name": "Nykur Bump B",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "6": {
+    "Name": "Nykur Bump C",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "7": {
+    "Name": "Nykur Bump D",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "8": {
+    "Name": "Raiju Bump A",
+    "Cost": 1,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "9": {
+    "Name": "Raiju Bump B",
+    "Cost": 1,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "10": {
+    "Name": "Raiju Bump C",
+    "Cost": 1,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "11": {
+    "Name": "Raiju Bump D",
+    "Cost": 1,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "12": {
+    "Name": "Basilisk Bump A",
+    "Cost": 1,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "13": {
+    "Name": "Basilisk Bump B",
+    "Cost": 1,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "14": {
+    "Name": "Basilisk Bump C",
+    "Cost": 1,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "15": {
+    "Name": "Basilisk Bump D",
+    "Cost": 1,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "16": {
+    "Name": "Ogre Bump A",
+    "Cost": 1,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "17": {
+    "Name": "Ogre Bump B",
+    "Cost": 1,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "18": {
+    "Name": "Ogre Bump C",
+    "Cost": 1,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "19": {
+    "Name": "Ogre Bump D",
+    "Cost": 1,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "20": {
+    "Name": "Dragon Slap A",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "21": {
+    "Name": "Dragon Slap B",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "22": {
+    "Name": "Dragon Slap C",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "23": {
+    "Name": "Dragon Slap D",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "24": {
+    "Name": "Nykur Slap A",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "25": {
+    "Name": "Nykur Slap B",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "26": {
+    "Name": "Nykur Slap C",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "27": {
+    "Name": "Nykur Slap D",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "28": {
+    "Name": "Raiju Slap A",
+    "Cost": 2,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "29": {
+    "Name": "Raiju Slap B",
+    "Cost": 2,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "30": {
+    "Name": "Raiju Slap C",
+    "Cost": 2,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "31": {
+    "Name": "Raiju Slap D",
+    "Cost": 2,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "32": {
+    "Name": "Basilisk Slap A",
+    "Cost": 2,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "33": {
+    "Name": "Basilisk Slap B",
+    "Cost": 2,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "34": {
+    "Name": "Basilisk Slap C",
+    "Cost": 2,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "35": {
+    "Name": "Basilisk Slap D",
+    "Cost": 2,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "36": {
+    "Name": "Ogre Slap A",
+    "Cost": 2,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "37": {
+    "Name": "Ogre Slap B",
+    "Cost": 2,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "38": {
+    "Name": "Ogre Slap C",
+    "Cost": 2,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "39": {
+    "Name": "Ogre Slap D",
+    "Cost": 2,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "40": {
+    "Name": "Dragon Smack A",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "41": {
+    "Name": "Dragon Smack B",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "42": {
+    "Name": "Dragon Smack C",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "43": {
+    "Name": "Dragon Smack D",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "44": {
+    "Name": "Nykur Smack A",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "45": {
+    "Name": "Nykur Smack B",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "46": {
+    "Name": "Nykur Smack C",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "47": {
+    "Name": "Nykur Smack D",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "48": {
+    "Name": "Raiju Smack A",
+    "Cost": 3,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "49": {
+    "Name": "Raiju Smack B",
+    "Cost": 3,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "50": {
+    "Name": "Raiju Smack C",
+    "Cost": 3,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "51": {
+    "Name": "Raiju Smack D",
+    "Cost": 3,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "52": {
+    "Name": "Basilisk Smack A",
+    "Cost": 3,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "53": {
+    "Name": "Basilisk Smack B",
+    "Cost": 3,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "54": {
+    "Name": "Basilisk Smack C",
+    "Cost": 3,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "55": {
+    "Name": "Basilisk Smack D",
+    "Cost": 3,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "56": {
+    "Name": "Ogre Smack A",
+    "Cost": 3,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "57": {
+    "Name": "Ogre Smack B",
+    "Cost": 3,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "58": {
+    "Name": "Ogre Smack C",
+    "Cost": 3,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "59": {
+    "Name": "Ogre Smack D",
+    "Cost": 3,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "60": {
+    "Name": "Dragon Hit A",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "61": {
+    "Name": "Dragon Hit B",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "62": {
+    "Name": "Dragon Hit C",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "63": {
+    "Name": "Dragon Hit D",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "64": {
+    "Name": "Nykur Hit A",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "65": {
+    "Name": "Nykur Hit B",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "66": {
+    "Name": "Nykur Hit C",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "67": {
+    "Name": "Nykur Hit D",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "68": {
+    "Name": "Raiju Hit A",
+    "Cost": 4,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "69": {
+    "Name": "Raiju Hit B",
+    "Cost": 4,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "70": {
+    "Name": "Raiju Hit C",
+    "Cost": 4,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "71": {
+    "Name": "Raiju Hit D",
+    "Cost": 4,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "72": {
+    "Name": "Basilisk Hit A",
+    "Cost": 4,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "73": {
+    "Name": "Basilisk Hit B",
+    "Cost": 4,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "74": {
+    "Name": "Basilisk Hit C",
+    "Cost": 4,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "75": {
+    "Name": "Basilisk Hit D",
+    "Cost": 4,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "76": {
+    "Name": "Ogre Hit A",
+    "Cost": 4,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "77": {
+    "Name": "Ogre Hit B",
+    "Cost": 4,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "78": {
+    "Name": "Ogre Hit C",
+    "Cost": 4,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "79": {
+    "Name": "Ogre Hit D",
+    "Cost": 4,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "80": {
+    "Name": "Dragon Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "81": {
+    "Name": "Dragon Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "82": {
+    "Name": "Dragon Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "83": {
+    "Name": "Dragon Thwack D",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "84": {
+    "Name": "Nykur Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "85": {
+    "Name": "Nykur Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "86": {
+    "Name": "Nykur Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "87": {
+    "Name": "Nykur Thwack D",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "88": {
+    "Name": "Raiju Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "89": {
+    "Name": "Raiju Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "90": {
+    "Name": "Raiju Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "91": {
+    "Name": "Raiju Thwack D",
+    "Cost": 5,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "92": {
+    "Name": "Basilisk Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "93": {
+    "Name": "Basilisk Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "94": {
+    "Name": "Basilisk Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "95": {
+    "Name": "Basilisk Thwack D",
+    "Cost": 5,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "96": {
+    "Name": "Ogre Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "97": {
+    "Name": "Ogre Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "98": {
+    "Name": "Ogre Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "99": {
+    "Name": "Ogre Thwack D",
+    "Cost": 5,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "100": {
+    "Name": "Dragon Bang A",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "101": {
+    "Name": "Dragon Bang B",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "102": {
+    "Name": "Dragon Bang C",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "103": {
+    "Name": "Dragon Bang D",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "104": {
+    "Name": "Nykur Bang A",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "105": {
+    "Name": "Nykur Bang B",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "106": {
+    "Name": "Nykur Bang C",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "107": {
+    "Name": "Nykur Bang D",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "chaose",
+      ""
+    ]
+  },
+  "108": {
+    "Name": "Raiju Bang A",
+    "Cost": 6,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "109": {
+    "Name": "Raiju Bang B",
+    "Cost": 6,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "110": {
+    "Name": "Raiju Bang C",
+    "Cost": 6,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "111": {
+    "Name": "Raiju Bang D",
+    "Cost": 6,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "112": {
+    "Name": "Basilisk Bang A",
+    "Cost": 6,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "113": {
+    "Name": "Basilisk Bang B",
+    "Cost": 6,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "114": {
+    "Name": "Basilisk Bang C",
+    "Cost": 6,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "115": {
+    "Name": "Basilisk Bang D",
+    "Cost": 6,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "116": {
+    "Name": "Ogre Bang A",
+    "Cost": 6,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "117": {
+    "Name": "Ogre Bang B",
+    "Cost": 6,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "118": {
+    "Name": "Ogre Bang C",
+    "Cost": 6,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "119": {
+    "Name": "Ogre Bang D",
+    "Cost": 6,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "120": {
+    "Name": "Dragon Slam A",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "121": {
+    "Name": "Dragon Slam B",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "122": {
+    "Name": "Dragon Slam C",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "123": {
+    "Name": "Dragon Slam D",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "124": {
+    "Name": "Nykur Slam A",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "125": {
+    "Name": "Nykur Slam B",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "126": {
+    "Name": "Nykur Slam C",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "127": {
+    "Name": "Nykur Slam D",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "128": {
+    "Name": "Raiju Slam A",
+    "Cost": 7,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "129": {
+    "Name": "Raiju Slam B",
+    "Cost": 7,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "130": {
+    "Name": "Raiju Slam C",
+    "Cost": 7,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "131": {
+    "Name": "Raiju Slam D",
+    "Cost": 7,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "132": {
+    "Name": "Basilisk Slam A",
+    "Cost": 7,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "133": {
+    "Name": "Basilisk Slam B",
+    "Cost": 7,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "134": {
+    "Name": "Basilisk Slam C",
+    "Cost": 7,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "135": {
+    "Name": "Basilisk Slam D",
+    "Cost": 7,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "136": {
+    "Name": "Ogre Slam A",
+    "Cost": 7,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "137": {
+    "Name": "Ogre Slam B",
+    "Cost": 7,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "138": {
+    "Name": "Ogre Slam C",
+    "Cost": 7,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "139": {
+    "Name": "Ogre Slam D",
+    "Cost": 7,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "140": {
+    "Name": "Dragon Smash A",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "141": {
+    "Name": "Dragon Smash B",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "142": {
+    "Name": "Dragon Smash C",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "143": {
+    "Name": "Dragon Smash D",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "144": {
+    "Name": "Nykur Smash A",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "145": {
+    "Name": "Nykur Smash B",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "146": {
+    "Name": "Nykur Smash C",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "147": {
+    "Name": "Nykur Smash D",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "148": {
+    "Name": "Raiju Smash A",
+    "Cost": 8,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "149": {
+    "Name": "Raiju Smash B",
+    "Cost": 8,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "150": {
+    "Name": "Raiju Smash C",
+    "Cost": 8,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "151": {
+    "Name": "Raiju Smash D",
+    "Cost": 8,
+    "Elements": [
+      "lightning",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "152": {
+    "Name": "Basilisk Smash A",
+    "Cost": 8,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "153": {
+    "Name": "Basilisk Smash B",
+    "Cost": 8,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "physical",
+      ""
+    ]
+  },
+  "154": {
+    "Name": "Basilisk Smash C",
+    "Cost": 8,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "155": {
+    "Name": "Basilisk Smash D",
+    "Cost": 8,
+    "Elements": [
+      "chaos",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "156": {
+    "Name": "Ogre Smash A",
+    "Cost": 8,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "fire",
+      ""
+    ]
+  },
+  "157": {
+    "Name": "Ogre Smash B",
+    "Cost": 8,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "lightning",
+      ""
+    ]
+  },
+  "158": {
+    "Name": "Ogre Smash C",
+    "Cost": 8,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "chaos",
+      ""
+    ]
+  },
+  "159": {
+    "Name": "Ogre Smash D",
+    "Cost": 8,
+    "Elements": [
+      "physical",
+      ""
+    ],
+    "Affinities": [
+      "ice",
+      ""
+    ]
+  },
+  "160": {
+    "Name": "Demon Bump A",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "161": {
+    "Name": "Demon Bump B",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "162": {
+    "Name": "Demon Bump C",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "ice"
+    ]
+  },
+  "163": {
+    "Name": "Cherufe Bump A",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "164": {
+    "Name": "Cherufe Bump B",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "lightning",
+      "ice"
+    ]
+  },
+  "165": {
+    "Name": "Cherufe Bump C",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "lightning",
+      "chaos"
+    ]
+  },
+  "166": {
+    "Name": "Djin Bump A",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "physical"
+    ]
+  },
+  "167": {
+    "Name": "Djin Bump B",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "ice",
+      "physical"
+    ]
+  },
+  "168": {
+    "Name": "Djin Bump C",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "169": {
+    "Name": "Salamander Bump A",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "170": {
+    "Name": "Salamander Bump B",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "lightning",
+      "chaos"
+    ]
+  },
+  "171": {
+    "Name": "Salamander Bump C",
+    "Cost": 1,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "172": {
+    "Name": "Leviathan Bump A",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "lightning"
+    ]
+  },
+  "173": {
+    "Name": "Leviathan Bump B",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "lighning"
+    ]
+  },
+  "174": {
+    "Name": "Leviathan Bump C",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "175": {
+    "Name": "Yeti Bump A",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "176": {
+    "Name": "Yeti Bump B",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "lightning"
+    ]
+  },
+  "177": {
+    "Name": "Yeti Bump C",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "178": {
+    "Name": "Tlaloque Bump A",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "physical"
+    ]
+  },
+  "179": {
+    "Name": "Tlaloque Bump B",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "180": {
+    "Name": "Tlaloque Bump C",
+    "Cost": 1,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "fire",
+      "physical"
+    ]
+  },
+  "181": {
+    "Name": "Quetzalcoatl Bump A",
+    "Cost": 1,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "182": {
+    "Name": "Quetzalcoatl Bump B",
+    "Cost": 1,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "183": {
+    "Name": "Quetzalcoatl Bump C",
+    "Cost": 1,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "ice"
+    ]
+  },
+  "184": {
+    "Name": "Garuda Bump A",
+    "Cost": 1,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "ice",
+      "chaos"
+    ]
+  },
+  "185": {
+    "Name": "Garuda Bump B",
+    "Cost": 1,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "ice"
+    ]
+  },
+  "186": {
+    "Name": "Garuda Bump C",
+    "Cost": 1,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "fire"
+    ]
+  },
+  "187": {
+    "Name": "Oni Bump A",
+    "Cost": 1,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "188": {
+    "Name": "Oni Bump B",
+    "Cost": 1,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "ice"
+    ]
+  },
+  "189": {
+    "Name": "Oni Bump C",
+    "Cost": 1,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "ice"
+    ]
+  },
+  "190": {
+    "Name": "Demon Slap A",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "191": {
+    "Name": "Demon Slap B",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "192": {
+    "Name": "Demon Slap C",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "ice"
+    ]
+  },
+  "193": {
+    "Name": "Cherufe Slap A",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "ice",
+      "chaos"
+    ]
+  },
+  "194": {
+    "Name": "Cherufe Slap B",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "195": {
+    "Name": "Cherufe Slap C",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "lightning",
+      "ice"
+    ]
+  },
+  "196": {
+    "Name": "Djin Slap A",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "ice"
+    ]
+  },
+  "197": {
+    "Name": "Djin Slap B",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "198": {
+    "Name": "Djin Slap C",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "199": {
+    "Name": "Salamander Slap A",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "200": {
+    "Name": "Salamander Slap B",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "lightning",
+      "chaos"
+    ]
+  },
+  "201": {
+    "Name": "Salamander Slap C",
+    "Cost": 2,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "202": {
+    "Name": "Leviathan Slap A",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "lightning"
+    ]
+  },
+  "203": {
+    "Name": "Leviathan Slap B",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "lightning"
+    ]
+  },
+  "204": {
+    "Name": "Leviathan Slap C",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "205": {
+    "Name": "Yeti Slap A",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "fire"
+    ]
+  },
+  "206": {
+    "Name": "Yeti Slap B",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "207": {
+    "Name": "Yeti Slap C",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "lightning"
+    ]
+  },
+  "208": {
+    "Name": "Tlaloque Slap A",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "209": {
+    "Name": "Tlaloque Slap B",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "210": {
+    "Name": "Tlaloque Slap C",
+    "Cost": 2,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "fire",
+      "physical"
+    ]
+  },
+  "211": {
+    "Name": "Quetzalcoatl Slap A",
+    "Cost": 2,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "212": {
+    "Name": "Quetzalcoatl Slap B",
+    "Cost": 2,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "213": {
+    "Name": "Quetzalcoatl Slap C",
+    "Cost": 2,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "physical"
+    ]
+  },
+  "214": {
+    "Name": "Garuda Slap A",
+    "Cost": 2,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "ice"
+    ]
+  },
+  "215": {
+    "Name": "Garuda Slap B",
+    "Cost": 2,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "216": {
+    "Name": "Garuda Slap C",
+    "Cost": 2,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "217": {
+    "Name": "Oni Slap A",
+    "Cost": 2,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "218": {
+    "Name": "Oni Slap B",
+    "Cost": 2,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "ice"
+    ]
+  },
+  "219": {
+    "Name": "Oni Slap C",
+    "Cost": 2,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "220": {
+    "Name": "Demon Smack A",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "221": {
+    "Name": "Demon Smack B",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "222": {
+    "Name": "Demon Smack C",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "physical"
+    ]
+  },
+  "223": {
+    "Name": "Cherufe Smack A",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "224": {
+    "Name": "Cherufe Smack B",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "225": {
+    "Name": "Cherufe Smack C",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "226": {
+    "Name": "Djin Smack A",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "ice",
+      "physical"
+    ]
+  },
+  "227": {
+    "Name": "Djin Smack B",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "lightning"
+    ]
+  },
+  "228": {
+    "Name": "Djin Smack C",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "229": {
+    "Name": "Salamander Smack A",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "230": {
+    "Name": "Salamander Smack B",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "physical",
+      "lightning"
+    ]
+  },
+  "231": {
+    "Name": "Salamander Smack C",
+    "Cost": 3,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "232": {
+    "Name": "Leviathan Smack A",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "233": {
+    "Name": "Leviathan Smack B",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "physical"
+    ]
+  },
+  "234": {
+    "Name": "Leviathan Smack C",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "235": {
+    "Name": "Yeti Smack A",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "236": {
+    "Name": "Yeti Smack B",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "237": {
+    "Name": "Yeti Smack C",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "238": {
+    "Name": "Tlaloque Smack A",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "239": {
+    "Name": "Tlaloque Smack B",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "240": {
+    "Name": "Tlaloque Smack C",
+    "Cost": 3,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "fire"
+    ]
+  },
+  "241": {
+    "Name": "Quetzalcoatl Smack A",
+    "Cost": 3,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "physical"
+    ]
+  },
+  "242": {
+    "Name": "Quetzalcoatl Smack B",
+    "Cost": 3,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "243": {
+    "Name": "Quetzalcoatl Smack C",
+    "Cost": 3,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "244": {
+    "Name": "Garuda Smack A",
+    "Cost": 3,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "245": {
+    "Name": "Garuda Smack B",
+    "Cost": 3,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "246": {
+    "Name": "Garuda Smack C",
+    "Cost": 3,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "fire"
+    ]
+  },
+  "247": {
+    "Name": "Oni Smack A",
+    "Cost": 3,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "248": {
+    "Name": "Oni Smack B",
+    "Cost": 3,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "ice"
+    ]
+  },
+  "249": {
+    "Name": "Oni Smack C",
+    "Cost": 3,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "250": {
+    "Name": "Demon Hit A",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "251": {
+    "Name": "Demon Hit B",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "252": {
+    "Name": "Demon Hit C",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "ice"
+    ]
+  },
+  "253": {
+    "Name": "Cherufe Hit A",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "254": {
+    "Name": "Cherufe Hit B",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "lightning",
+      "ice"
+    ]
+  },
+  "255": {
+    "Name": "Cherufe Hit C",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "lightning",
+      "chaos"
+    ]
+  },
+  "256": {
+    "Name": "Djin Hit A",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "physical"
+    ]
+  },
+  "257": {
+    "Name": "Djin Hit B",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "ice",
+      "physical"
+    ]
+  },
+  "258": {
+    "Name": "Djin Hit C",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "259": {
+    "Name": "Salamander Hit A",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "260": {
+    "Name": "Salamander Hit B",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "lightning",
+      "chaos"
+    ]
+  },
+  "261": {
+    "Name": "Salamander Hit C",
+    "Cost": 4,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "262": {
+    "Name": "Leviathan Hit A",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "lightning"
+    ]
+  },
+  "263": {
+    "Name": "Leviathan Hit B",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "lighning"
+    ]
+  },
+  "264": {
+    "Name": "Leviathan Hit C",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "265": {
+    "Name": "Yeti Hit A",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "266": {
+    "Name": "Yeti Hit B",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "lightning"
+    ]
+  },
+  "267": {
+    "Name": "Yeti Hit C",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "268": {
+    "Name": "Tlaloque Hit A",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "physical"
+    ]
+  },
+  "269": {
+    "Name": "Tlaloque Hit B",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "270": {
+    "Name": "Tlaloque Hit C",
+    "Cost": 4,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "fire",
+      "physical"
+    ]
+  },
+  "271": {
+    "Name": "Quetzalcoatl Hit A",
+    "Cost": 4,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "272": {
+    "Name": "Quetzalcoatl Hit B",
+    "Cost": 4,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "273": {
+    "Name": "Quetzalcoatl Hit C",
+    "Cost": 4,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "ice"
+    ]
+  },
+  "274": {
+    "Name": "Garuda Hit A",
+    "Cost": 4,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "ice",
+      "chaos"
+    ]
+  },
+  "275": {
+    "Name": "Garuda Hit B",
+    "Cost": 4,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "ice"
+    ]
+  },
+  "276": {
+    "Name": "Garuda Hit C",
+    "Cost": 4,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "fire"
+    ]
+  },
+  "277": {
+    "Name": "Oni Hit A",
+    "Cost": 4,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "278": {
+    "Name": "Oni Hit B",
+    "Cost": 4,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "ice"
+    ]
+  },
+  "279": {
+    "Name": "Oni Hit C",
+    "Cost": 4,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "ice"
+    ]
+  },
+  "280": {
+    "Name": "Demon Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "281": {
+    "Name": "Demon Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "282": {
+    "Name": "Demon Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "physical"
+    ]
+  },
+  "283": {
+    "Name": "Cherufe Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "284": {
+    "Name": "Cherufe Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "285": {
+    "Name": "Cherufe Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "286": {
+    "Name": "Djin Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "ice",
+      "physical"
+    ]
+  },
+  "287": {
+    "Name": "Djin Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "lightning"
+    ]
+  },
+  "288": {
+    "Name": "Djin Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "289": {
+    "Name": "Salamander Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "290": {
+    "Name": "Salamander Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "physical",
+      "lightning"
+    ]
+  },
+  "291": {
+    "Name": "Salamander Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "292": {
+    "Name": "Leviathan Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "293": {
+    "Name": "Leviathan Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "physical"
+    ]
+  },
+  "294": {
+    "Name": "Leviathan Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "295": {
+    "Name": "Yeti Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "296": {
+    "Name": "Yeti Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "297": {
+    "Name": "Yeti Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "298": {
+    "Name": "Tlaloque Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "299": {
+    "Name": "Tlaloque Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "300": {
+    "Name": "Tlaloque Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "fire"
+    ]
+  },
+  "301": {
+    "Name": "Quetzalcoatl Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "physical"
+    ]
+  },
+  "302": {
+    "Name": "Quetzalcoatl Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "303": {
+    "Name": "Quetzalcoatl Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "304": {
+    "Name": "Garuda Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "305": {
+    "Name": "Garuda Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "306": {
+    "Name": "Garuda Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "fire"
+    ]
+  },
+  "307": {
+    "Name": "Oni Thwack A",
+    "Cost": 5,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "308": {
+    "Name": "Oni Thwack B",
+    "Cost": 5,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "ice"
+    ]
+  },
+  "309": {
+    "Name": "Oni Thwack C",
+    "Cost": 5,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "310": {
+    "Name": "Demon Bang A",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "311": {
+    "Name": "Demon Bang B",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "312": {
+    "Name": "Demon Bang C",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "ice"
+    ]
+  },
+  "313": {
+    "Name": "Cherufe Bang A",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "ice",
+      "chaos"
+    ]
+  },
+  "314": {
+    "Name": "Cherufe Bang B",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "315": {
+    "Name": "Cherufe Bang C",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "lightning",
+      "ice"
+    ]
+  },
+  "316": {
+    "Name": "Djin Bang A",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "ice"
+    ]
+  },
+  "317": {
+    "Name": "Djin Bang B",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "318": {
+    "Name": "Djin Bang C",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "319": {
+    "Name": "Salamander Bang A",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "320": {
+    "Name": "Salamander Bang B",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "lightning",
+      "chaos"
+    ]
+  },
+  "321": {
+    "Name": "Salamander Bang C",
+    "Cost": 6,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "322": {
+    "Name": "Leviathan Bang A",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "lightning"
+    ]
+  },
+  "323": {
+    "Name": "Leviathan Bang B",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "lightning"
+    ]
+  },
+  "324": {
+    "Name": "Leviathan Bang C",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "325": {
+    "Name": "Yeti Bang A",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "fire"
+    ]
+  },
+  "326": {
+    "Name": "Yeti Bang B",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "327": {
+    "Name": "Yeti Bang C",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "lightning"
+    ]
+  },
+  "328": {
+    "Name": "Tlaloque Bang A",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "329": {
+    "Name": "Tlaloque Bang B",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "330": {
+    "Name": "Tlaloque Bang C",
+    "Cost": 6,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "fire",
+      "physical"
+    ]
+  },
+  "331": {
+    "Name": "Quetzalcoatl Bang A",
+    "Cost": 6,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "332": {
+    "Name": "Quetzalcoatl Bang B",
+    "Cost": 6,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "333": {
+    "Name": "Quetzalcoatl Bang C",
+    "Cost": 6,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "physical"
+    ]
+  },
+  "334": {
+    "Name": "Garuda Bang A",
+    "Cost": 6,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "ice"
+    ]
+  },
+  "335": {
+    "Name": "Garuda Bang B",
+    "Cost": 6,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "336": {
+    "Name": "Garuda Bang C",
+    "Cost": 6,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "337": {
+    "Name": "Oni Bang A",
+    "Cost": 6,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "338": {
+    "Name": "Oni Bang B",
+    "Cost": 6,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "ice"
+    ]
+  },
+  "339": {
+    "Name": "Oni Bang C",
+    "Cost": 6,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "340": {
+    "Name": "Demon Slam A",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "341": {
+    "Name": "Demon Slam B",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "physical"
+    ]
+  },
+  "342": {
+    "Name": "Demon Slam C",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "lightning"
+    ]
+  },
+  "343": {
+    "Name": "Cherufe Slam A",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "lightning",
+      "chaos"
+    ]
+  },
+  "344": {
+    "Name": "Cherufe Slam B",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "lightning",
+      "ice"
+    ]
+  },
+  "345": {
+    "Name": "Cherufe Slam C",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "346": {
+    "Name": "Djin Slam A",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "ice"
+    ]
+  },
+  "347": {
+    "Name": "Djin Slam B",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "348": {
+    "Name": "Djin Slam C",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "349": {
+    "Name": "Salamander Slam A",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "350": {
+    "Name": "Salamander Slam B",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "physical",
+      "lightning"
+    ]
+  },
+  "351": {
+    "Name": "Salamander Slam C",
+    "Cost": 7,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "352": {
+    "Name": "Leviathan Slam A",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "lightning"
+    ]
+  },
+  "353": {
+    "Name": "Leviathan Slam B",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "lighning"
+    ]
+  },
+  "354": {
+    "Name": "Leviathan Slam C",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "355": {
+    "Name": "Yeti Slam A",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "fire"
+    ]
+  },
+  "356": {
+    "Name": "Yeti Slam B",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "357": {
+    "Name": "Yeti Slam C",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "lightning"
+    ]
+  },
+  "358": {
+    "Name": "Tlaloque Slam A",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "359": {
+    "Name": "Tlaloque Slam B",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "360": {
+    "Name": "Tlaloque Slam C",
+    "Cost": 7,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "fire",
+      "physical"
+    ]
+  },
+  "361": {
+    "Name": "Quetzalcoatl Slam A",
+    "Cost": 7,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "ice"
+    ]
+  },
+  "362": {
+    "Name": "Quetzalcoatl Slam B",
+    "Cost": 7,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "physical"
+    ]
+  },
+  "363": {
+    "Name": "Quetzalcoatl Slam C",
+    "Cost": 7,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "physical"
+    ]
+  },
+  "364": {
+    "Name": "Garuda Slam A",
+    "Cost": 7,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "365": {
+    "Name": "Garuda Slam B",
+    "Cost": 7,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "366": {
+    "Name": "Garuda Slam C",
+    "Cost": 7,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "fire"
+    ]
+  },
+  "367": {
+    "Name": "Oni Slam A",
+    "Cost": 7,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "368": {
+    "Name": "Oni Slam B",
+    "Cost": 7,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "ice"
+    ]
+  },
+  "369": {
+    "Name": "Oni Slam C",
+    "Cost": 7,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "370": {
+    "Name": "Demon Smash A",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "371": {
+    "Name": "Demon Smash B",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "lightning"
+    ]
+  },
+  "372": {
+    "Name": "Demon Smash C",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "ice"
+    ]
+  },
+  "373": {
+    "Name": "Cherufe Smash A",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "ice",
+      "chaos"
+    ]
+  },
+  "374": {
+    "Name": "Cherufe Smash B",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "375": {
+    "Name": "Cherufe Smash C",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      "physical"
+    ],
+    "Affinities": [
+      "lightning",
+      "ice"
+    ]
+  },
+  "376": {
+    "Name": "Djin Smash A",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "ice"
+    ]
+  },
+  "377": {
+    "Name": "Djin Smash B",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "ice"
+    ]
+  },
+  "378": {
+    "Name": "Djin Smash C",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      "lightning"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "379": {
+    "Name": "Salamander Smash A",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "physical",
+      "chaos"
+    ]
+  },
+  "380": {
+    "Name": "Salamander Smash B",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "physical",
+      "lightning"
+    ]
+  },
+  "381": {
+    "Name": "Salamander Smash C",
+    "Cost": 8,
+    "Elements": [
+      "fire",
+      "ice"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "382": {
+    "Name": "Leviathan Smash A",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "383": {
+    "Name": "Leviathan Smash B",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "physical"
+    ]
+  },
+  "384": {
+    "Name": "Leviathan Smash C",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "385": {
+    "Name": "Yeti Smash A",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "lightning"
+    ]
+  },
+  "386": {
+    "Name": "Yeti Smash B",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "387": {
+    "Name": "Yeti Smash C",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "388": {
+    "Name": "Tlaloque Smash A",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "chaos",
+      "physical"
+    ]
+  },
+  "389": {
+    "Name": "Tlaloque Smash B",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "fire",
+      "chaos"
+    ]
+  },
+  "390": {
+    "Name": "Tlaloque Smash C",
+    "Cost": 8,
+    "Elements": [
+      "ice",
+      "lightning"
+    ],
+    "Affinities": [
+      "fire",
+      "physical"
+    ]
+  },
+  "391": {
+    "Name": "Quetzalcoatl Smash A",
+    "Cost": 8,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "ice",
+      "fire"
+    ]
+  },
+  "392": {
+    "Name": "Quetzalcoatl Smash B",
+    "Cost": 8,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "fire"
+    ]
+  },
+  "393": {
+    "Name": "Quetzalcoatl Smash C",
+    "Cost": 8,
+    "Elements": [
+      "lightning",
+      "chaos"
+    ],
+    "Affinities": [
+      "physical",
+      "ice"
+    ]
+  },
+  "394": {
+    "Name": "Garuda Smash A",
+    "Cost": 8,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "ice",
+      "chaos"
+    ]
+  },
+  "395": {
+    "Name": "Garuda Smash B",
+    "Cost": 8,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "fire",
+      "ice"
+    ]
+  },
+  "396": {
+    "Name": "Garuda Smash C",
+    "Cost": 8,
+    "Elements": [
+      "lightning",
+      "physical"
+    ],
+    "Affinities": [
+      "chaos",
+      "fire"
+    ]
+  },
+  "397": {
+    "Name": "Oni Smash A",
+    "Cost": 8,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "fire"
+    ]
+  },
+  "398": {
+    "Name": "Oni Smash B",
+    "Cost": 8,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "lightning",
+      "ice"
+    ]
+  },
+  "399": {
+    "Name": "Oni Smash C",
+    "Cost": 8,
+    "Elements": [
+      "physical",
+      "chaos"
+    ],
+    "Affinities": [
+      "fire",
+      "ice"
+    ]
+  }
+}

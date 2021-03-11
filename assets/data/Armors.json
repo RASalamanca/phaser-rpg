@@ -1,0 +1,23 @@
+{
+  "0": {
+    "Name": "Plain Clothes",
+    "Level": 1,
+    "HP": 360,
+    "Defence": 100,
+    "Thoughness": 72
+  },
+  "1": {
+    "Name": "Cowboy Clothes",
+    "Level": 1,
+    "HP": 300,
+    "Defence": 316,
+    "Thoughness": 72
+  },
+  "2": {
+    "Name": "Dinasour Suit",
+    "Level": 1,
+    "HP": 380,
+    "Defence": 28,
+    "Thoughness": 72
+  }
+}

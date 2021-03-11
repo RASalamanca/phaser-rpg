@@ -1,0 +1,17 @@
+{
+  "0": {
+    "Name": "Wooden Club",
+    "Level": 1,
+    "Variance": 0.1
+  },
+  "1": {
+    "Name": "Rusty Sword",
+    "Level": 1,
+    "Variance": 0.3
+  },
+  "2": {
+    "Name": "Broken Wine Bottle",
+    "Level": 1,
+    "Variance": 0.5
+  }
+}
