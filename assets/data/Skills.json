@@ -2,10 +2,7 @@
   "0": {
     "Name": "Dragon Bump A",
     "Cost": 1,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -14,10 +11,7 @@
   "1": {
     "Name": "Dragon Bump B",
     "Cost": 1,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -26,10 +20,7 @@
   "2": {
     "Name": "Dragon Bump C",
     "Cost": 1,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -38,58 +29,43 @@
   "3": {
     "Name": "Dragon Bump D",
     "Cost": 1,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "4": {
-    "Name": "Nykur Bump A",
+    "Name": "Leviathan Bump A",
     "Cost": 1,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "5": {
-    "Name": "Nykur Bump B",
+    "Name": "Leviathan Bump B",
     "Cost": 1,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
     ]
   },
   "6": {
-    "Name": "Nykur Bump C",
+    "Name": "Leviathan Bump C",
     "Cost": 1,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
     ]
   },
   "7": {
-    "Name": "Nykur Bump D",
+    "Name": "Leviathan Bump D",
     "Cost": 1,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -98,10 +74,7 @@
   "8": {
     "Name": "Raiju Bump A",
     "Cost": 1,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -110,10 +83,7 @@
   "9": {
     "Name": "Raiju Bump B",
     "Cost": 1,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -122,10 +92,7 @@
   "10": {
     "Name": "Raiju Bump C",
     "Cost": 1,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -134,58 +101,43 @@
   "11": {
     "Name": "Raiju Bump D",
     "Cost": 1,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "12": {
-    "Name": "Basilisk Bump A",
+    "Name": "Shoggoth Bump A",
     "Cost": 1,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
     ]
   },
   "13": {
-    "Name": "Basilisk Bump B",
+    "Name": "Shoggoth Bump B",
     "Cost": 1,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
     ]
   },
   "14": {
-    "Name": "Basilisk Bump C",
+    "Name": "Shoggoth Bump C",
     "Cost": 1,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "15": {
-    "Name": "Basilisk Bump D",
+    "Name": "Shoggoth Bump D",
     "Cost": 1,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -194,10 +146,7 @@
   "16": {
     "Name": "Ogre Bump A",
     "Cost": 1,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -206,10 +155,7 @@
   "17": {
     "Name": "Ogre Bump B",
     "Cost": 1,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -218,10 +164,7 @@
   "18": {
     "Name": "Ogre Bump C",
     "Cost": 1,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -230,10 +173,7 @@
   "19": {
     "Name": "Ogre Bump D",
     "Cost": 1,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -242,10 +182,7 @@
   "20": {
     "Name": "Dragon Slap A",
     "Cost": 2,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -254,10 +191,7 @@
   "21": {
     "Name": "Dragon Slap B",
     "Cost": 2,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -266,10 +200,7 @@
   "22": {
     "Name": "Dragon Slap C",
     "Cost": 2,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -278,58 +209,43 @@
   "23": {
     "Name": "Dragon Slap D",
     "Cost": 2,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "24": {
-    "Name": "Nykur Slap A",
+    "Name": "Leviathan Slap A",
     "Cost": 2,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
     ]
   },
   "25": {
-    "Name": "Nykur Slap B",
+    "Name": "Leviathan Slap B",
     "Cost": 2,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "26": {
-    "Name": "Nykur Slap C",
+    "Name": "Leviathan Slap C",
     "Cost": 2,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
     ]
   },
   "27": {
-    "Name": "Nykur Slap D",
+    "Name": "Leviathan Slap D",
     "Cost": 2,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -338,10 +254,7 @@
   "28": {
     "Name": "Raiju Slap A",
     "Cost": 2,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -350,10 +263,7 @@
   "29": {
     "Name": "Raiju Slap B",
     "Cost": 2,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -362,10 +272,7 @@
   "30": {
     "Name": "Raiju Slap C",
     "Cost": 2,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -374,58 +281,43 @@
   "31": {
     "Name": "Raiju Slap D",
     "Cost": 2,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
     ]
   },
   "32": {
-    "Name": "Basilisk Slap A",
+    "Name": "Shoggoth Slap A",
     "Cost": 2,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
     ]
   },
   "33": {
-    "Name": "Basilisk Slap B",
+    "Name": "Shoggoth Slap B",
     "Cost": 2,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "34": {
-    "Name": "Basilisk Slap C",
+    "Name": "Shoggoth Slap C",
     "Cost": 2,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "35": {
-    "Name": "Basilisk Slap D",
+    "Name": "Shoggoth Slap D",
     "Cost": 2,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -434,10 +326,7 @@
   "36": {
     "Name": "Ogre Slap A",
     "Cost": 2,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -446,10 +335,7 @@
   "37": {
     "Name": "Ogre Slap B",
     "Cost": 2,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -458,10 +344,7 @@
   "38": {
     "Name": "Ogre Slap C",
     "Cost": 2,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -470,10 +353,7 @@
   "39": {
     "Name": "Ogre Slap D",
     "Cost": 2,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -482,10 +362,7 @@
   "40": {
     "Name": "Dragon Smack A",
     "Cost": 3,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -494,10 +371,7 @@
   "41": {
     "Name": "Dragon Smack B",
     "Cost": 3,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -506,10 +380,7 @@
   "42": {
     "Name": "Dragon Smack C",
     "Cost": 3,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -518,58 +389,43 @@
   "43": {
     "Name": "Dragon Smack D",
     "Cost": 3,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "44": {
-    "Name": "Nykur Smack A",
+    "Name": "Leviathan Smack A",
     "Cost": 3,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
     ]
   },
   "45": {
-    "Name": "Nykur Smack B",
+    "Name": "Leviathan Smack B",
     "Cost": 3,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
     ]
   },
   "46": {
-    "Name": "Nykur Smack C",
+    "Name": "Leviathan Smack C",
     "Cost": 3,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "47": {
-    "Name": "Nykur Smack D",
+    "Name": "Leviathan Smack D",
     "Cost": 3,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -578,10 +434,7 @@
   "48": {
     "Name": "Raiju Smack A",
     "Cost": 3,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -590,10 +443,7 @@
   "49": {
     "Name": "Raiju Smack B",
     "Cost": 3,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -602,10 +452,7 @@
   "50": {
     "Name": "Raiju Smack C",
     "Cost": 3,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -614,58 +461,43 @@
   "51": {
     "Name": "Raiju Smack D",
     "Cost": 3,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
     ]
   },
   "52": {
-    "Name": "Basilisk Smack A",
+    "Name": "Shoggoth Smack A",
     "Cost": 3,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
     ]
   },
   "53": {
-    "Name": "Basilisk Smack B",
+    "Name": "Shoggoth Smack B",
     "Cost": 3,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
     ]
   },
   "54": {
-    "Name": "Basilisk Smack C",
+    "Name": "Shoggoth Smack C",
     "Cost": 3,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "55": {
-    "Name": "Basilisk Smack D",
+    "Name": "Shoggoth Smack D",
     "Cost": 3,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -674,10 +506,7 @@
   "56": {
     "Name": "Ogre Smack A",
     "Cost": 3,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -686,10 +515,7 @@
   "57": {
     "Name": "Ogre Smack B",
     "Cost": 3,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -698,10 +524,7 @@
   "58": {
     "Name": "Ogre Smack C",
     "Cost": 3,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -710,10 +533,7 @@
   "59": {
     "Name": "Ogre Smack D",
     "Cost": 3,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -722,10 +542,7 @@
   "60": {
     "Name": "Dragon Hit A",
     "Cost": 4,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -734,10 +551,7 @@
   "61": {
     "Name": "Dragon Hit B",
     "Cost": 4,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -746,10 +560,7 @@
   "62": {
     "Name": "Dragon Hit C",
     "Cost": 4,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -758,58 +569,43 @@
   "63": {
     "Name": "Dragon Hit D",
     "Cost": 4,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "64": {
-    "Name": "Nykur Hit A",
+    "Name": "Leviathan Hit A",
     "Cost": 4,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
     ]
   },
   "65": {
-    "Name": "Nykur Hit B",
+    "Name": "Leviathan Hit B",
     "Cost": 4,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "66": {
-    "Name": "Nykur Hit C",
+    "Name": "Leviathan Hit C",
     "Cost": 4,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
     ]
   },
   "67": {
-    "Name": "Nykur Hit D",
+    "Name": "Leviathan Hit D",
     "Cost": 4,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -818,10 +614,7 @@
   "68": {
     "Name": "Raiju Hit A",
     "Cost": 4,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -830,10 +623,7 @@
   "69": {
     "Name": "Raiju Hit B",
     "Cost": 4,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -842,10 +632,7 @@
   "70": {
     "Name": "Raiju Hit C",
     "Cost": 4,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -854,58 +641,43 @@
   "71": {
     "Name": "Raiju Hit D",
     "Cost": 4,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "72": {
-    "Name": "Basilisk Hit A",
+    "Name": "Shoggoth Hit A",
     "Cost": 4,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
     ]
   },
   "73": {
-    "Name": "Basilisk Hit B",
+    "Name": "Shoggoth Hit B",
     "Cost": 4,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
     ]
   },
   "74": {
-    "Name": "Basilisk Hit C",
+    "Name": "Shoggoth Hit C",
     "Cost": 4,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "75": {
-    "Name": "Basilisk Hit D",
+    "Name": "Shoggoth Hit D",
     "Cost": 4,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -914,10 +686,7 @@
   "76": {
     "Name": "Ogre Hit A",
     "Cost": 4,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -926,10 +695,7 @@
   "77": {
     "Name": "Ogre Hit B",
     "Cost": 4,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -938,10 +704,7 @@
   "78": {
     "Name": "Ogre Hit C",
     "Cost": 4,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -950,10 +713,7 @@
   "79": {
     "Name": "Ogre Hit D",
     "Cost": 4,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -962,10 +722,7 @@
   "80": {
     "Name": "Dragon Thwack A",
     "Cost": 5,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -974,10 +731,7 @@
   "81": {
     "Name": "Dragon Thwack B",
     "Cost": 5,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -986,10 +740,7 @@
   "82": {
     "Name": "Dragon Thwack C",
     "Cost": 5,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -998,58 +749,43 @@
   "83": {
     "Name": "Dragon Thwack D",
     "Cost": 5,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "84": {
-    "Name": "Nykur Thwack A",
+    "Name": "Leviathan Thwack A",
     "Cost": 5,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
     ]
   },
   "85": {
-    "Name": "Nykur Thwack B",
+    "Name": "Leviathan Thwack B",
     "Cost": 5,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
     ]
   },
   "86": {
-    "Name": "Nykur Thwack C",
+    "Name": "Leviathan Thwack C",
     "Cost": 5,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "87": {
-    "Name": "Nykur Thwack D",
+    "Name": "Leviathan Thwack D",
     "Cost": 5,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -1058,10 +794,7 @@
   "88": {
     "Name": "Raiju Thwack A",
     "Cost": 5,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -1070,10 +803,7 @@
   "89": {
     "Name": "Raiju Thwack B",
     "Cost": 5,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -1082,10 +812,7 @@
   "90": {
     "Name": "Raiju Thwack C",
     "Cost": 5,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -1094,58 +821,43 @@
   "91": {
     "Name": "Raiju Thwack D",
     "Cost": 5,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "92": {
-    "Name": "Basilisk Thwack A",
+    "Name": "Shoggoth Thwack A",
     "Cost": 5,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "93": {
-    "Name": "Basilisk Thwack B",
+    "Name": "Shoggoth Thwack B",
     "Cost": 5,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
     ]
   },
   "94": {
-    "Name": "Basilisk Thwack C",
+    "Name": "Shoggoth Thwack C",
     "Cost": 5,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
     ]
   },
   "95": {
-    "Name": "Basilisk Thwack D",
+    "Name": "Shoggoth Thwack D",
     "Cost": 5,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -1154,10 +866,7 @@
   "96": {
     "Name": "Ogre Thwack A",
     "Cost": 5,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -1166,10 +875,7 @@
   "97": {
     "Name": "Ogre Thwack B",
     "Cost": 5,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -1178,10 +884,7 @@
   "98": {
     "Name": "Ogre Thwack C",
     "Cost": 5,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -1190,10 +893,7 @@
   "99": {
     "Name": "Ogre Thwack D",
     "Cost": 5,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -1202,10 +902,7 @@
   "100": {
     "Name": "Dragon Bang A",
     "Cost": 6,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -1214,10 +911,7 @@
   "101": {
     "Name": "Dragon Bang B",
     "Cost": 6,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -1226,10 +920,7 @@
   "102": {
     "Name": "Dragon Bang C",
     "Cost": 6,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -1238,70 +929,52 @@
   "103": {
     "Name": "Dragon Bang D",
     "Cost": 6,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
     ]
   },
   "104": {
-    "Name": "Nykur Bang A",
+    "Name": "Leviathan Bang A",
     "Cost": 6,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
     ]
   },
   "105": {
-    "Name": "Nykur Bang B",
+    "Name": "Leviathan Bang B",
     "Cost": 6,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
     ]
   },
   "106": {
-    "Name": "Nykur Bang C",
+    "Name": "Leviathan Bang C",
     "Cost": 6,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
     ]
   },
   "107": {
-    "Name": "Nykur Bang D",
+    "Name": "Leviathan Bang D",
     "Cost": 6,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
-      "chaose",
+      "chaos",
       ""
     ]
   },
   "108": {
     "Name": "Raiju Bang A",
     "Cost": 6,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -1310,10 +983,7 @@
   "109": {
     "Name": "Raiju Bang B",
     "Cost": 6,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -1322,10 +992,7 @@
   "110": {
     "Name": "Raiju Bang C",
     "Cost": 6,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -1334,58 +1001,43 @@
   "111": {
     "Name": "Raiju Bang D",
     "Cost": 6,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "112": {
-    "Name": "Basilisk Bang A",
+    "Name": "Shoggoth Bang A",
     "Cost": 6,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
     ]
   },
   "113": {
-    "Name": "Basilisk Bang B",
+    "Name": "Shoggoth Bang B",
     "Cost": 6,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
     ]
   },
   "114": {
-    "Name": "Basilisk Bang C",
+    "Name": "Shoggoth Bang C",
     "Cost": 6,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "115": {
-    "Name": "Basilisk Bang D",
+    "Name": "Shoggoth Bang D",
     "Cost": 6,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -1394,10 +1046,7 @@
   "116": {
     "Name": "Ogre Bang A",
     "Cost": 6,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -1406,10 +1055,7 @@
   "117": {
     "Name": "Ogre Bang B",
     "Cost": 6,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -1418,10 +1064,7 @@
   "118": {
     "Name": "Ogre Bang C",
     "Cost": 6,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -1430,10 +1073,7 @@
   "119": {
     "Name": "Ogre Bang D",
     "Cost": 6,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -1442,10 +1082,7 @@
   "120": {
     "Name": "Dragon Slam A",
     "Cost": 7,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -1454,10 +1091,7 @@
   "121": {
     "Name": "Dragon Slam B",
     "Cost": 7,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -1466,10 +1100,7 @@
   "122": {
     "Name": "Dragon Slam C",
     "Cost": 7,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -1478,58 +1109,43 @@
   "123": {
     "Name": "Dragon Slam D",
     "Cost": 7,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "124": {
-    "Name": "Nykur Slam A",
+    "Name": "Leviathan Slam A",
     "Cost": 7,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "125": {
-    "Name": "Nykur Slam B",
+    "Name": "Leviathan Slam B",
     "Cost": 7,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
     ]
   },
   "126": {
-    "Name": "Nykur Slam C",
+    "Name": "Leviathan Slam C",
     "Cost": 7,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
     ]
   },
   "127": {
-    "Name": "Nykur Slam D",
+    "Name": "Leviathan Slam D",
     "Cost": 7,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -1538,10 +1154,7 @@
   "128": {
     "Name": "Raiju Slam A",
     "Cost": 7,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -1550,10 +1163,7 @@
   "129": {
     "Name": "Raiju Slam B",
     "Cost": 7,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -1562,10 +1172,7 @@
   "130": {
     "Name": "Raiju Slam C",
     "Cost": 7,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -1574,58 +1181,43 @@
   "131": {
     "Name": "Raiju Slam D",
     "Cost": 7,
-    "Elements": [
-      "lightning",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "132": {
-    "Name": "Basilisk Slam A",
+    "Name": "Shoggoth Slam A",
     "Cost": 7,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
     ]
   },
   "133": {
-    "Name": "Basilisk Slam B",
+    "Name": "Shoggoth Slam B",
     "Cost": 7,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
     ]
   },
   "134": {
-    "Name": "Basilisk Slam C",
+    "Name": "Shoggoth Slam C",
     "Cost": 7,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
     ]
   },
   "135": {
-    "Name": "Basilisk Slam D",
+    "Name": "Shoggoth Slam D",
     "Cost": 7,
-    "Elements": [
-      "chaos",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -1634,10 +1226,7 @@
   "136": {
     "Name": "Ogre Slam A",
     "Cost": 7,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
@@ -1646,10 +1235,7 @@
   "137": {
     "Name": "Ogre Slam B",
     "Cost": 7,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -1658,10 +1244,7 @@
   "138": {
     "Name": "Ogre Slam C",
     "Cost": 7,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -1670,10 +1253,7 @@
   "139": {
     "Name": "Ogre Slam D",
     "Cost": 7,
-    "Elements": [
-      "physical",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
@@ -1682,10 +1262,7 @@
   "140": {
     "Name": "Dragon Smash A",
     "Cost": 8,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -1694,10 +1271,7 @@
   "141": {
     "Name": "Dragon Smash B",
     "Cost": 8,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
@@ -1706,10 +1280,7 @@
   "142": {
     "Name": "Dragon Smash C",
     "Cost": 8,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "ice",
       ""
@@ -1718,58 +1289,43 @@
   "143": {
     "Name": "Dragon Smash D",
     "Cost": 8,
-    "Elements": [
-      "fire",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "144": {
-    "Name": "Nykur Smash A",
+    "Name": "Leviathan Smash A",
     "Cost": 8,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "chaos",
       ""
     ]
   },
   "145": {
-    "Name": "Nykur Smash B",
+    "Name": "Leviathan Smash B",
     "Cost": 8,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "fire",
       ""
     ]
   },
   "146": {
-    "Name": "Nykur Smash C",
+    "Name": "Leviathan Smash C",
     "Cost": 8,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "lightning",
       ""
     ]
   },
   "147": {
-    "Name": "Nykur Smash D",
+    "Name": "Leviathan Smash D",
     "Cost": 8,
-    "Elements": [
-      "ice",
-      ""
-    ],
+    "Elements": [],
     "Affinities": [
       "physical",
       ""
@@ -1824,7 +1380,7 @@
     ]
   },
   "152": {
-    "Name": "Basilisk Smash A",
+    "Name": "Shoggoth Smash A",
     "Cost": 8,
     "Elements": [
       "chaos",
@@ -1836,7 +1392,7 @@
     ]
   },
   "153": {
-    "Name": "Basilisk Smash B",
+    "Name": "Shoggoth Smash B",
     "Cost": 8,
     "Elements": [
       "chaos",
@@ -1848,7 +1404,7 @@
     ]
   },
   "154": {
-    "Name": "Basilisk Smash C",
+    "Name": "Shoggoth Smash C",
     "Cost": 8,
     "Elements": [
       "chaos",
@@ -1860,7 +1416,7 @@
     ]
   },
   "155": {
-    "Name": "Basilisk Smash D",
+    "Name": "Shoggoth Smash D",
     "Cost": 8,
     "Elements": [
       "chaos",
@@ -1992,7 +1548,7 @@
     ]
   },
   "166": {
-    "Name": "Djin Bump A",
+    "Name": "Djinn Bump A",
     "Cost": 1,
     "Elements": [
       "fire",
@@ -2004,7 +1560,7 @@
     ]
   },
   "167": {
-    "Name": "Djin Bump B",
+    "Name": "Djinn Bump B",
     "Cost": 1,
     "Elements": [
       "fire",
@@ -2016,7 +1572,7 @@
     ]
   },
   "168": {
-    "Name": "Djin Bump C",
+    "Name": "Djinn Bump C",
     "Cost": 1,
     "Elements": [
       "fire",
@@ -2064,7 +1620,7 @@
     ]
   },
   "172": {
-    "Name": "Leviathan Bump A",
+    "Name": "Cthullhu Bump A",
     "Cost": 1,
     "Elements": [
       "ice",
@@ -2076,7 +1632,7 @@
     ]
   },
   "173": {
-    "Name": "Leviathan Bump B",
+    "Name": "Cthullhu Bump B",
     "Cost": 1,
     "Elements": [
       "ice",
@@ -2088,7 +1644,7 @@
     ]
   },
   "174": {
-    "Name": "Leviathan Bump C",
+    "Name": "Cthullhu Bump C",
     "Cost": 1,
     "Elements": [
       "ice",
@@ -2352,7 +1908,7 @@
     ]
   },
   "196": {
-    "Name": "Djin Slap A",
+    "Name": "Djinn Slap A",
     "Cost": 2,
     "Elements": [
       "fire",
@@ -2364,7 +1920,7 @@
     ]
   },
   "197": {
-    "Name": "Djin Slap B",
+    "Name": "Djinn Slap B",
     "Cost": 2,
     "Elements": [
       "fire",
@@ -2376,7 +1932,7 @@
     ]
   },
   "198": {
-    "Name": "Djin Slap C",
+    "Name": "Djinn Slap C",
     "Cost": 2,
     "Elements": [
       "fire",
@@ -2424,7 +1980,7 @@
     ]
   },
   "202": {
-    "Name": "Leviathan Slap A",
+    "Name": "Cthullhu Slap A",
     "Cost": 2,
     "Elements": [
       "ice",
@@ -2436,7 +1992,7 @@
     ]
   },
   "203": {
-    "Name": "Leviathan Slap B",
+    "Name": "Cthullhu Slap B",
     "Cost": 2,
     "Elements": [
       "ice",
@@ -2448,7 +2004,7 @@
     ]
   },
   "204": {
-    "Name": "Leviathan Slap C",
+    "Name": "Cthullhu Slap C",
     "Cost": 2,
     "Elements": [
       "ice",
@@ -2712,7 +2268,7 @@
     ]
   },
   "226": {
-    "Name": "Djin Smack A",
+    "Name": "Djinn Smack A",
     "Cost": 3,
     "Elements": [
       "fire",
@@ -2724,7 +2280,7 @@
     ]
   },
   "227": {
-    "Name": "Djin Smack B",
+    "Name": "Djinn Smack B",
     "Cost": 3,
     "Elements": [
       "fire",
@@ -2736,7 +2292,7 @@
     ]
   },
   "228": {
-    "Name": "Djin Smack C",
+    "Name": "Djinn Smack C",
     "Cost": 3,
     "Elements": [
       "fire",
@@ -2784,7 +2340,7 @@
     ]
   },
   "232": {
-    "Name": "Leviathan Smack A",
+    "Name": "Cthullhu Smack A",
     "Cost": 3,
     "Elements": [
       "ice",
@@ -2796,7 +2352,7 @@
     ]
   },
   "233": {
-    "Name": "Leviathan Smack B",
+    "Name": "Cthullhu Smack B",
     "Cost": 3,
     "Elements": [
       "ice",
@@ -2808,7 +2364,7 @@
     ]
   },
   "234": {
-    "Name": "Leviathan Smack C",
+    "Name": "Cthullhu Smack C",
     "Cost": 3,
     "Elements": [
       "ice",
@@ -3072,7 +2628,7 @@
     ]
   },
   "256": {
-    "Name": "Djin Hit A",
+    "Name": "Djinn Hit A",
     "Cost": 4,
     "Elements": [
       "fire",
@@ -3084,7 +2640,7 @@
     ]
   },
   "257": {
-    "Name": "Djin Hit B",
+    "Name": "Djinn Hit B",
     "Cost": 4,
     "Elements": [
       "fire",
@@ -3096,7 +2652,7 @@
     ]
   },
   "258": {
-    "Name": "Djin Hit C",
+    "Name": "Djinn Hit C",
     "Cost": 4,
     "Elements": [
       "fire",
@@ -3144,7 +2700,7 @@
     ]
   },
   "262": {
-    "Name": "Leviathan Hit A",
+    "Name": "Cthullhu Hit A",
     "Cost": 4,
     "Elements": [
       "ice",
@@ -3156,7 +2712,7 @@
     ]
   },
   "263": {
-    "Name": "Leviathan Hit B",
+    "Name": "Cthullhu Hit B",
     "Cost": 4,
     "Elements": [
       "ice",
@@ -3168,7 +2724,7 @@
     ]
   },
   "264": {
-    "Name": "Leviathan Hit C",
+    "Name": "Cthullhu Hit C",
     "Cost": 4,
     "Elements": [
       "ice",
@@ -3432,7 +2988,7 @@
     ]
   },
   "286": {
-    "Name": "Djin Thwack A",
+    "Name": "Djinn Thwack A",
     "Cost": 5,
     "Elements": [
       "fire",
@@ -3444,7 +3000,7 @@
     ]
   },
   "287": {
-    "Name": "Djin Thwack B",
+    "Name": "Djinn Thwack B",
     "Cost": 5,
     "Elements": [
       "fire",
@@ -3456,7 +3012,7 @@
     ]
   },
   "288": {
-    "Name": "Djin Thwack C",
+    "Name": "Djinn Thwack C",
     "Cost": 5,
     "Elements": [
       "fire",
@@ -3504,7 +3060,7 @@
     ]
   },
   "292": {
-    "Name": "Leviathan Thwack A",
+    "Name": "Cthullhu Thwack A",
     "Cost": 5,
     "Elements": [
       "ice",
@@ -3516,7 +3072,7 @@
     ]
   },
   "293": {
-    "Name": "Leviathan Thwack B",
+    "Name": "Cthullhu Thwack B",
     "Cost": 5,
     "Elements": [
       "ice",
@@ -3528,7 +3084,7 @@
     ]
   },
   "294": {
-    "Name": "Leviathan Thwack C",
+    "Name": "Cthullhu Thwack C",
     "Cost": 5,
     "Elements": [
       "ice",
@@ -3792,7 +3348,7 @@
     ]
   },
   "316": {
-    "Name": "Djin Bang A",
+    "Name": "Djinn Bang A",
     "Cost": 6,
     "Elements": [
       "fire",
@@ -3804,7 +3360,7 @@
     ]
   },
   "317": {
-    "Name": "Djin Bang B",
+    "Name": "Djinn Bang B",
     "Cost": 6,
     "Elements": [
       "fire",
@@ -3816,7 +3372,7 @@
     ]
   },
   "318": {
-    "Name": "Djin Bang C",
+    "Name": "Djinn Bang C",
     "Cost": 6,
     "Elements": [
       "fire",
@@ -3864,7 +3420,7 @@
     ]
   },
   "322": {
-    "Name": "Leviathan Bang A",
+    "Name": "Cthullhu Bang A",
     "Cost": 6,
     "Elements": [
       "ice",
@@ -3876,7 +3432,7 @@
     ]
   },
   "323": {
-    "Name": "Leviathan Bang B",
+    "Name": "Cthullhu Bang B",
     "Cost": 6,
     "Elements": [
       "ice",
@@ -3888,7 +3444,7 @@
     ]
   },
   "324": {
-    "Name": "Leviathan Bang C",
+    "Name": "Cthullhu Bang C",
     "Cost": 6,
     "Elements": [
       "ice",
@@ -4152,7 +3708,7 @@
     ]
   },
   "346": {
-    "Name": "Djin Slam A",
+    "Name": "Djinn Slam A",
     "Cost": 7,
     "Elements": [
       "fire",
@@ -4164,7 +3720,7 @@
     ]
   },
   "347": {
-    "Name": "Djin Slam B",
+    "Name": "Djinn Slam B",
     "Cost": 7,
     "Elements": [
       "fire",
@@ -4176,7 +3732,7 @@
     ]
   },
   "348": {
-    "Name": "Djin Slam C",
+    "Name": "Djinn Slam C",
     "Cost": 7,
     "Elements": [
       "fire",
@@ -4224,7 +3780,7 @@
     ]
   },
   "352": {
-    "Name": "Leviathan Slam A",
+    "Name": "Cthullhu Slam A",
     "Cost": 7,
     "Elements": [
       "ice",
@@ -4236,7 +3792,7 @@
     ]
   },
   "353": {
-    "Name": "Leviathan Slam B",
+    "Name": "Cthullhu Slam B",
     "Cost": 7,
     "Elements": [
       "ice",
@@ -4248,7 +3804,7 @@
     ]
   },
   "354": {
-    "Name": "Leviathan Slam C",
+    "Name": "Cthullhu Slam C",
     "Cost": 7,
     "Elements": [
       "ice",
@@ -4512,7 +4068,7 @@
     ]
   },
   "376": {
-    "Name": "Djin Smash A",
+    "Name": "Djinn Smash A",
     "Cost": 8,
     "Elements": [
       "fire",
@@ -4524,7 +4080,7 @@
     ]
   },
   "377": {
-    "Name": "Djin Smash B",
+    "Name": "Djinn Smash B",
     "Cost": 8,
     "Elements": [
       "fire",
@@ -4536,7 +4092,7 @@
     ]
   },
   "378": {
-    "Name": "Djin Smash C",
+    "Name": "Djinn Smash C",
     "Cost": 8,
     "Elements": [
       "fire",
@@ -4584,7 +4140,7 @@
     ]
   },
   "382": {
-    "Name": "Leviathan Smash A",
+    "Name": "Cthullhu Smash A",
     "Cost": 8,
     "Elements": [
       "ice",
@@ -4596,7 +4152,7 @@
     ]
   },
   "383": {
-    "Name": "Leviathan Smash B",
+    "Name": "Cthullhu Smash B",
     "Cost": 8,
     "Elements": [
       "ice",
@@ -4608,7 +4164,7 @@
     ]
   },
   "384": {
-    "Name": "Leviathan Smash C",
+    "Name": "Cthullhu Smash C",
     "Cost": 8,
     "Elements": [
       "ice",
