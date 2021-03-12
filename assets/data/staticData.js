@@ -5,57 +5,57 @@ var skills = [];
 var characters = [];
 
 //imports armor data -------------------------------------------
-const requestArmor = new XMLHttpRequest();
-requestArmor.open('GET', '/data/Armors.json');
+var requestArmor = new XMLHttpRequest();
+requestArmor.open('GET', 'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/data/Armors.json');
 requestArmor.responseType = 'json';
 requestArmor.send();
 
 //populates armor object ------------------
 requestArmor.onload = function(){
-  const armorData = requestArmor.response;
+  var armorData = requestArmor.response;
   for (const item in armorData){
-    armors.push( Armor( item.Name, item.Level, item.HP, item.Defence, item.Thoughness ));
+    armors.push( new Armor( armorData[item].Name, armorData[item].Level, armorData[item].HP, armorData[item].Defence, armorData[item].Thoughness ) );
   }
 }
 
 //imports weapon data -------------------------------------------
-const requestWeapons = new XMLHttpRequest();
-requestWeapons.open('GET', '/data/Weapons.json');
+var requestWeapons = new XMLHttpRequest();
+requestWeapons.open('GET', 'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/data/Weapons.json', true);
 requestWeapons.responseType = 'json';
 requestWeapons.send();
 
 //populates weapon object --------------------
-requestWeapon.onload = function(){
-  const weaponData = requestWeapons.response;
+requestWeapons.onload = function(){
+  var weaponData = requestWeapons.response;
   for (const item in weaponData){
-    weapons.push( Weapon( item.Name, item.Level, item.Variance ));
+    weapons.push( new Weapon( weaponData[item].Name, weaponData[item].Level, weaponData[item].Variance ));
   }
 }
 
 //imports skill data ---------------------------------------------
-const requestSkills = new XMLHttpRequest();
-requestSkills.open('GET', '/data/Skills.json');
+var requestSkills = new XMLHttpRequest();
+requestSkills.open('GET', 'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/data/Skills.json', true);
 requestSkills.responseType = 'json';
 requestSkills.send();
 
 //populates skills object -------------------
 requestSkills.onload = function(){
-  const skillsData = requestSkills.response;
+  var skillsData = requestSkills.response;
   for (const item in skillsData){
-    skills.push( Skill( item.Name, item.Level, item.Elements, item.Affinities));
+    skills.push( new Skill( skillsData[item].Name, skillsData[item].Cost, skillsData[item].Elements, skillsData[item].Affinities ));
   }
 }
 
 //imports character data ------------------------------------------
-const requestCharacters = new XMLHttpRequest();
-requestCharacters.open('GET', '/data/CharacterSheets.json');
+var requestCharacters = new XMLHttpRequest();
+requestCharacters.open('GET', 'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/data/CharacterSheets.json', true);
 requestCharacters.responseType = 'json';
-requestSkills.send();
+requestCharacters.send();
 
 //populates characters object ----------------------
 requestCharacters.onload = function(){
-  const charactersData = requestCharacters.response;
+  var charactersData = requestCharacters.response;
   for (const item in charactersData){
-    characters.push( Combatant( item.Name, item.level, item.Armor, item.Weapon, item.Skills ));
+    characters.push( new Combatant( charactersData[item].Name, charactersData[item].level, charactersData[item].Armor, charactersData[item].Weapon, charactersData[item].Skills ));
   }
 }

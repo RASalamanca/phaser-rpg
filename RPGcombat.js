@@ -1,43 +1,49 @@
-function Weapon(name, level, variance){
-  damage = level * 10;
-  this.name = name;
-  this.minDamage = damage - (damage * variance);
-  this.maxDamade = damage + (damage * variance);
+class Weapon {
+  constructor(name, level, variance) {
+    var damage = level * 10;
+    this.name = name;
+    this.minDamage = damage - (damage*variance);
+    this.maxDamade = damage + (damage*variance);
+  }
 }
 
-function Armor(name, level, healthPoints, defence, thoughness){
-  this.name = name;
-  his.level = level;
-  this.healthPoints = healthPoints;
-  this.defence = defence;
-  this.thoughness = thoughness;
+class Armor {
+  constructor(name, level, healthPoints, defence, thoughness) {
+    this.name = name;
+    this.level = level; 
+    this.healthPoints = healthPoints;
+    this.defence =  defence;
+    this.thoughness = thoughness;
+  }
 }
 
-function Skill(name, cost, elements, affinities){
-  this.name = name;
-  this.elements = elements;
-  this.eleAffinity = eleAffinity
-  this.cost = cost;
-  this.damageMultiplier = ( 0.5 * (cost ^ 2) ) + ( 0.5 * cost);
+class Skill {
+  constructor( name, cost, elements, affinities) {
+    this.name = name;
+    this.elements = elements;
+    this.eleAffinity = affinities;
+    this.cost = cost;
+    this.damageMultiplier = ( 0.5 * (cost ^ 2) ) + ( 0.5 * cost);
+      
+    //assigns elemental multipliers based on the skill's elements
+    var elementalMult = 1 / this.elements.length;
+    this.fire = this.elements.includes('fire') ? elementalMult : 0;
+    this.ice = this.elements.includes('ice') ? elementalMult : 0;
+    this.lightning = this.elements.includes('lightning') ? elementalMult : 0;
+    this.chaos = this.elements.includes('chaos') ? elementalMult : 0;
+    this.physical = this.elements.includes('physical') ? elementalMult : 0;
 
-  //assigns elemental multipliers based on the skill's elements
-  var elementalMult = 1 / this.elements.lenght;
-  this.fire = this.elements.includes('fire') ? elementalMult : 0;
-  this.ice = this.elements.includes('ice') ? elementalMult : 0;
-  this.lightning = this.elements.includes('lightning') ? elementalMult : 0;
-  this.chaos = this.elements.includes('chaos') ? elementalMult : 0;
-  this.physical = this.elements.includes('physical') ? elementalMult : 0;
+    //assigns elemental affinities based on the skill's affinities
+    var affinityMult = 1 / this.eleAffinity.length;
+    this.fireAff = this.eleAffinity.includes('fire') ? affinityMult : 0;
+    this.iceAff = this.eleAffinity.includes('ice') ? affinityMult : 0;
+    this.lightningAff = this.eleAffinity.includes('lightning') ? affinityMult : 0;
+    this.chaosAff = this.eleAffinity.includes('chaos') ? affinityMult : 0;
+    this.physicalAff = this.eleAffinity.includes('physical') ? affinityMult : 0;
+  }
 
-  //assigns elemental affinities based on the skill's affinities
-  var affinitylMult = 1 / this.affinities.lenght;
-  this.fireAff = this.affinities.includes('fire') ? affinityMult : 0;
-  this.iceAff = this.affinities.includes('ice') ? affinityMult : 0;
-  this.lightningAff = this.affinities.includes('lightning') ? affinityMult : 0;
-  this.chaosAff = this.affinities.includes('chaos') ? affinityMult : 0;
-  this.physicalAff = this.affinities.includes('physical') ? affinityMult : 0;
-  
   //only basic damage skills so far.
-  this.use = function(user, target){
+  use( user, target) {
 
     //energy cost of the skill
     user.energy -= this.cost;
@@ -70,43 +76,45 @@ function Skill(name, cost, elements, affinities){
   };
 }
 
-function Combatant(name, level, armor, weapon, skills){
-  this.name = name;
-  this.level = level;
-  this.armor = armor;
-  this.weapon = weapon;
-  this.skills = skills;
-  this.maxDefence = armor.defence;
-  this.defence = armor.defence;
-  this.maxHealth = armor.healthPoints;
-  this.health = armor.healthPoints;
-  this.thoughness = armor.thoughness;
-  this.minDamage = weapon.minDamage;
-  this.maxDamage = weapon.maxDamage;  
+class Combatant {
+  constructor(name, level, armor, weapon, skills) {
+    this.name = name;
+    this.level = level;
+    this.armor = armor;
+    this.weapon = weapon;
+    this.skills = skills;
+    this.maxDefence = this.armor.defence;
+    this.defence = this.armor.defence;
+    this.maxHealth = this.armor.healthPoints;
+    this.health = this.armor.healthPoints;
+    this.thoughness = this.armor.thoughness;
+    this.minDamage = weapon.minDamage;
+    this.maxDamage = weapon.maxDamage;
 
-  //hardcoded values
-  this.maxEnergy = 8;
-  this.energy = 0;
-  this.armorTimer = 0;
-  this.fireMult = 1;
-  this.iceMult = 1;
-  this.lightningMult = 1;
-  this.chaosMult = 1;
-  this.physicalMult = 1;
+    //hardcoded values
+    this.maxEnergy=8;
+    this.energy=0;
+    this.armorTimer=0;
+    this.fireMult=1;
+    this.iceMult=1;
+    this.lightningMult=1;
+    this.chaosMult=1;
+    this.physicalMult=1;
+  }
 
-  //Methods
-  this.equipArmor = function(item){
-    if( this.level >= item.level ){
+//Methods
+  equipArmor(item) {
+    if(this.level >= item.level) {
       this.weapon = item;
       this.minDamage = weapon.minDamage;
-       this.maxDamage = weapon.maxDamage; 
+      this.maxDamage = weapon.maxDamage;
     } else {
       console.log('too weak...');
     }
-  };
+  }
 
-  this.equipWeapon = function(item){
-    if( this.level >= item.level ){
+  equipWeapon(item) {
+    if(this.level >= item.level) {
       this.armor = item;
       this.maxDefence = armor.defence;
       this.defence = armor.defence;
@@ -116,33 +124,34 @@ function Combatant(name, level, armor, weapon, skills){
     } else {
       console.log('too weak...');
     }
-  };
+  }
 
-  this.checkSkill = function(skill){     //Checks if a skill can be used.
-    return this.energy >= skill.cost;
-  };
+  checkSkill(skill) {
+    return this.energy>=skill.cost;
+  }
 
-  this.checkDefence = function(){   //Checks if combatant still has defence, and penalises it if it doesn't
-    if (this.defence <= 0 && this.armorTimer == 0){
+  checkDefence() {
+    if(this.defence <= 0 && this.armorTimer == 0) {
       this.energy = 0;
-      this.armorTimer == 2;
+      this.armorTimer = 2;
     }
-    if (this.armorTimer > 0){
+    if(this.armorTimer > 0) {
       this.armorTimer -= 1;
       this.defence = this.armorTimer == 0 ? this.maxDefence : this.defence;
     }
+  }
+
+  checkAlive() {
+    return this.health > 0;
   };
 
-  this.checkAlive = function(){ 
-    return this.health > 0;
+  startTurn() {
+    if(this.checkAlive()) {
+      this.checkDefence();
+      this.energy+=this.energy<this.maxEnergy? 1:0;
+    } else {
+      console.log(this.name+'is dead');
+    } 
   }
 
-  this.startTurn = function(){
-    if ( this.checkAlive() ){
-      this.checkDefence();
-      this.energy += this.energy < this.maxEnergy ? 1 : 0;
-    } else {
-      console.log( this.name + 'is dead');
-    }  
-  }
 }
