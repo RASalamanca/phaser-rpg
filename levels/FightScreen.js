@@ -35,13 +35,6 @@ var FightScreen = new Phaser.Class({
 
     this.load.image( 'PortraitPlaceholder', 
     'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/UIElements/PlayerPortraitPlaceHolder.png');
-
-
-
-
-
-
-
   },
 
   create: function () {
