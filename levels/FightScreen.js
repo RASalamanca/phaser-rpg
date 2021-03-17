@@ -26,6 +26,12 @@ var FightScreen = new Phaser.Class({
     'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/UIElements/DivisionSign.png');
     this.load.image( 'PercentageSign', 
     'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/UIElements/PercentageSign.png');
+    this.load.spritesheet('HPNumbers', 
+    'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/UIElements/HPNumbers.png',
+    { frameWidth: 8, frameHeight: 10});
+    this.load.spritesheet('ArmorNumbers', 
+    'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/UIElements/ArmorNumbers.png',
+    { frameWidth: 5, frameHeight: 8});
 
     this.load.image( 'PortraitPlaceholder', 
     'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/UIElements/PlayerPortraitPlaceHolder.png');
