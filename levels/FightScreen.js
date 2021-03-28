@@ -11,6 +11,11 @@ var FightScreen = new Phaser.Class({
   preload: function () {
     //load up Skilll icons and other UI elements
 
+    //skill icons
+    this.load.spritesheet('skillIcons',
+    'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/PhaserRPGSkillIconset.png',
+    { frameHeight: 24, frameWidth: 24 });
+
     //Armor and HP bar elements
     this.load.image( 'ArmorBarFrame', 
     'https://raw.githubusercontent.com/RASalamanca/phaser-rpg/master/assets/UIElements/PlayerArmorBarBox.png');
