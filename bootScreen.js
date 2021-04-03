@@ -79,7 +79,7 @@ var BootScreen = new Phaser.Class({
       }
     }
 
-  //Bandit sprite animations
+    //Bandit sprite animations
     {
      //Walking animation
      {
