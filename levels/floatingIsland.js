@@ -47,6 +47,12 @@ var FloatingIsland = new Phaser.Class({
     player.setBodySize(8, 8, true);
     player.setOffset(8, 24);
 
+    //Creates NPC 
+    const enemySpawn = map.findObject('Objects', obj => obj.name === 'NPC');
+    enemy = this.physics.add.sprite( enemySpawn.x, enemySpawn.y, 'bandit', 34);
+    enemy.setBodySize(8, 8, true);
+    enemy.setOffset(8, 24);
+
     //map colliders
     this.cliffBelowLayer.setCollisionByProperty({ Collides: true });
     this.baseLayer.setCollisionByProperty({ Collides: true });

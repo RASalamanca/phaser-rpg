@@ -44,6 +44,7 @@ var FightScreen = new Phaser.Class({
 
   create: function () {
     //Draw UI elements on screen.
+    
   },
 
   update: function () {
