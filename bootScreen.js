@@ -79,6 +79,61 @@ var BootScreen = new Phaser.Class({
       }
     }
 
+  //Bandit sprite animations
+    {
+     //Walking animation
+     {
+        this.anims.create({               // <--Walk Up
+          key: 'BanditWalkUp',
+          frames: this.anims.generateFrameNumbers('bandit', {start: 0, end: 2}),
+          frameRate: 10,
+          repeat: -1
+        });
+        this.anims.create({               // <--Walk Right
+          key: 'BanditWalkRight',
+          frames: this.anims.generateFrameNumbers('bandit', {start: 12, end: 14}),
+          frameRate: 10,
+          repeat: -1
+        });
+        this.anims.create({               // <--Walk Down
+          key: 'BanditWalkDown',
+          frames: this.anims.generateFrameNumbers('bandit', {start: 24, end: 26}),
+          frameRate: 10,
+          repeat: -1
+        });
+        this.anims.create({               // <--Walk Left
+          key: 'BanditWalkLeft',
+          frames: this.anims.generateFrameNumbers('bandit', {start: 36, end: 38}),
+          frameRate: 10,
+          repeat: -1
+        });
+      }
+
+      //Standing animations
+      {
+        this.anims.create({               // <--Stand Up
+          key: 'BanditStandUp',
+          frames: [{key: 'bandit', frame: 1}],
+          frameRate: 20,
+        });
+        this.anims.create({               // <--Stand Right
+          key: 'BanditStandRight',
+          frames: [{key: 'bandit', frame: 13}],
+          frameRate: 20,
+        });
+        this.anims.create({               // <--Stand Down
+          key: 'BanditStandDown',
+          frames: [{key: 'bandit', frame: 25}],
+          frameRate: 20,
+        });
+        this.anims.create({               // <--Stand Left
+          key: 'BanditStandLeft',
+          frames: [{key: 'bandit', frame: 37}],
+          frameRate: 20,
+        });
+      }
+    }
+
     //Tittle Screen Text
     const titleText = this.add.text(55, 100, "PHASER RPG", {fill: '#ffffff', fontSize: 48} );
 
